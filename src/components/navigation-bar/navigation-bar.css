@@ -1,0 +1,11 @@
+.NavigationBar {
+}
+
+.nav-items {
+  margin-right: 4rem;
+}
+
+.drop-link:focus {
+  background-color: #b2bec3 !important;
+  color: black !important;
+}
