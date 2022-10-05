@@ -29,10 +29,8 @@ function App() {
       <NavigationBar />
       <Container className="App">
         <Routes>
-          {/* about section */}
           <Route path="/" element={<About />}></Route>
 
-          {/* services section  */}
           <Route
             path="/business-consulting"
             element={<BusinessConsulting />}
@@ -50,10 +48,9 @@ function App() {
             element={<PersonalFinances />}
           ></Route>
 
-          {/* global events section */}
           <Route path="/articles" element={<Articles />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
-          {/* contact section */}
+
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </Container>
