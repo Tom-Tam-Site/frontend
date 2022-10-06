@@ -1,10 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './about.css';
+import React from "react";
+import "./about.css";
+import Overview from "./overview/overview";
+import Qualifications from "./qualifications/qualifications";
+import Endorsements from "./endorsements/endorsements";
 
 const About = () => (
   <div className="about">
-    About Component
+    <Overview />
+    <Qualifications />
+    <Endorsements />
   </div>
 );
 
