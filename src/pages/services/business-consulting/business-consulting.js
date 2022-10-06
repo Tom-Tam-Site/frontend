@@ -1,10 +1,19 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './business-consulting.css';
+import React from "react";
+
+import "./business-consulting.css";
+import StrategicAlignment from "./strategic-alignment/strategic-alignment";
+import RiskManagement from "./risk-management/risk-management";
+import FinancialManagement from "./financial-management/financial-management";
+import TrainingDevelopment from "./training-development/training-development";
+import BestPractices from "./best-practices/best-practices";
 
 const BusinessConsulting = () => (
   <div className="business-consulting">
-    BusinessConsulting Component
+    <StrategicAlignment />
+    <RiskManagement />
+    <FinancialManagement />
+    <TrainingDevelopment />
+    <BestPractices />
   </div>
 );
 
