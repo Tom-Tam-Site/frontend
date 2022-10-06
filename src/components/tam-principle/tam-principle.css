@@ -1,0 +1,17 @@
+.TamPrinciple {
+}
+
+.principle-card {
+  width: 18rem;
+}
+
+.fletter {
+  font-size: larger !important;
+  font-family: "Lobster Two", cursive !important;
+}
+
+.principle {
+  border: dashed 1px #ccc;
+  border-radius: 50%;
+  margin-top: 1rem;
+}

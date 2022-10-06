@@ -1,1 +1,12 @@
-.Overview {}
+.Overview {
+}
+
+.profile {
+  border-radius: 20%;
+  margin: 2rem;
+  width: 16rem !important;
+}
+
+.card {
+  border: none !important;
+}
