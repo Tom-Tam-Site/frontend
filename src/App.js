@@ -11,11 +11,10 @@ import { Route, Routes } from "react-router-dom";
 
 // import pages
 import About from "./pages/about/about";
-import Contact from "./pages/contact/contact";
 
 // import services
 import BusinessConsulting from "./pages/business-consulting/business-consulting";
-import ProfessionalDevelopment from "./pages/professional-development/professional-development";
+import PersonalCouching from "./pages/personal-couching/personal-couching";
 import SpiritualDevelopment from "./pages/spiritual-development/spiritual-development";
 import PersonalFinances from "./pages/personal-finances/personal-finances";
 
@@ -37,7 +36,7 @@ function App() {
           ></Route>
           <Route
             path="/personal-couching"
-            element={<ProfessionalDevelopment />}
+            element={<PersonalCouching />}
           ></Route>
           <Route
             path="/spiritual-development"
@@ -50,8 +49,6 @@ function App() {
 
           <Route path="/articles" element={<Articles />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
-
-          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </Container>
       <Footer />
