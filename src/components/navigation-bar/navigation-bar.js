@@ -19,36 +19,18 @@ const NavigationBar = () => (
             <Nav.Link className="link" as={Link} to="/">
               About
             </Nav.Link>
-            <NavDropdown title="Services">
-              <NavDropdown.Item
-                className="drop-link"
-                as={Link}
-                to="/business-consulting"
-              >
-                Business Consulting
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                className="drop-link"
-                as={Link}
-                to="/professional-development"
-              >
-                Professional Development
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                className="drop-link"
-                as={Link}
-                to="/spiritual-development"
-              >
-                Spiritual Development
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                className="drop-link"
-                as={Link}
-                to="/personal-finances"
-              >
-                Personal Financial Management
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link className="link" as={Link} to="/business-consulting">
+              Business Consulting
+            </Nav.Link>
+            <Nav.Link className="link" as={Link} to="/personal-couching">
+              Personal Couching
+            </Nav.Link>
+            <Nav.Link className="link" as={Link} to="/spiritual-development">
+              Spiritual Development
+            </Nav.Link>
+            <Nav.Link className="link" as={Link} to="/personal-finances">
+              Financial Management
+            </Nav.Link>
             <NavDropdown title="Global Events">
               <NavDropdown.Item className="drop-link" as={Link} to="/articles">
                 Articles
@@ -57,9 +39,6 @@ const NavigationBar = () => (
                 Blog
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/contact">
-              Contact Me
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

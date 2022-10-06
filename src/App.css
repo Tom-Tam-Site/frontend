@@ -10,9 +10,12 @@ h6 {
 body,
 footer {
   font-family: "Raleway", sans-serif !important;
-  font-size: large !important;
 }
 
 .App {
   margin: 2.5rem;
+}
+
+.parent-component > * {
+  margin: 1rem;
 }
