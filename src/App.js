@@ -14,10 +14,10 @@ import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 
 // import services
-import BusinessConsulting from "./pages/services/business-consulting/business-consulting";
-import ProfessionalDevelopment from "./pages/services/professional-development/professional-development";
-import SpiritualDevelopment from "./pages/services/spiritual-development/spiritual-development";
-import PersonalFinances from "./pages/services/personal-finances/personal-finances";
+import BusinessConsulting from "./pages/business-consulting/business-consulting";
+import ProfessionalDevelopment from "./pages/professional-development/professional-development";
+import SpiritualDevelopment from "./pages/spiritual-development/spiritual-development";
+import PersonalFinances from "./pages/personal-finances/personal-finances";
 
 // import global events
 import Articles from "./pages/global-events/articles/articles";
@@ -36,7 +36,7 @@ function App() {
             element={<BusinessConsulting />}
           ></Route>
           <Route
-            path="/professional-development"
+            path="/personal-couching"
             element={<ProfessionalDevelopment />}
           ></Route>
           <Route
