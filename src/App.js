@@ -13,14 +13,14 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/about/about";
 
 // import services
-import BusinessConsulting from "./pages/business-consulting/business-consulting";
-import PersonalCouching from "./pages/personal-couching/personal-couching";
-import SpiritualDevelopment from "./pages/spiritual-development/spiritual-development";
-import PersonalFinances from "./pages/personal-finances/personal-finances";
+import BusinessConsulting from "./pages/consulting/business-consulting";
+import Coaching from "./pages/coaching/coaching";
+import SpiritualDevelopment from "./pages/spirituality/spiritual-development";
+import PersonalFinances from "./pages/finance/personal-finances";
 
 // import global events
-import Articles from "./pages/global-events/articles/articles";
-import Blog from "./pages/global-events/blog/blog";
+import Articles from "./pages/news/articles/articles";
+import Blog from "./pages/news/blog/blog";
 
 function App() {
   return (
@@ -30,22 +30,13 @@ function App() {
         <Routes>
           <Route path="/" element={<About />}></Route>
 
+          <Route path="/consulting" element={<BusinessConsulting />}></Route>
+          <Route path="/coaching" element={<Coaching />}></Route>
           <Route
-            path="/business-consulting"
-            element={<BusinessConsulting />}
-          ></Route>
-          <Route
-            path="/personal-couching"
-            element={<PersonalCouching />}
-          ></Route>
-          <Route
-            path="/spiritual-development"
+            path="/spirituality"
             element={<SpiritualDevelopment />}
           ></Route>
-          <Route
-            path="/personal-finances"
-            element={<PersonalFinances />}
-          ></Route>
+          <Route path="/finance" element={<PersonalFinances />}></Route>
 
           <Route path="/articles" element={<Articles />}></Route>
           <Route path="/blog" element={<Blog />}></Route>

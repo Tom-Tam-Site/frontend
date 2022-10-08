@@ -19,19 +19,19 @@ const NavigationBar = () => (
             <Nav.Link className="link" as={Link} to="/">
               About
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/business-consulting">
-              Business Consulting
+            <Nav.Link className="link" as={Link} to="/consulting">
+              Consulting
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/personal-couching">
-              Personal Couching
+            <Nav.Link className="link" as={Link} to="/coaching">
+              Coaching
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/spiritual-development">
-              Spiritual Development
+            <Nav.Link className="link" as={Link} to="/spirituality">
+              Spirituality
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/personal-finances">
-              Financial Management
+            <Nav.Link className="link" as={Link} to="/finance">
+              Finance
             </Nav.Link>
-            <NavDropdown title="Global Events">
+            <NavDropdown title="News">
               <NavDropdown.Item className="drop-link" as={Link} to="/articles">
                 Articles
               </NavDropdown.Item>
