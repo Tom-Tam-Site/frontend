@@ -28,17 +28,9 @@ const NavigationBar = () => (
             <Nav.Link className="link" as={Link} to="/spirituality">
               Spirituality
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/finance">
-              Finance
+            <Nav.Link className="link" as={Link} to="/news">
+              News Blog
             </Nav.Link>
-            <NavDropdown title="News">
-              <NavDropdown.Item className="drop-link" as={Link} to="/articles">
-                Articles
-              </NavDropdown.Item>
-              <NavDropdown.Item className="drop-link" as={Link} to="/blog">
-                Blog
-              </NavDropdown.Item>
-            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -9,7 +9,7 @@ import BestPractices from "./best-practices-articles/best-practices";
 import UnderConstruction from "../../components/under-construction/under-construction";
 
 const BusinessConsulting = () => (
-  <div className="business-consulting parent-component">
+  <div className="business-consulting">
     {/* <StrategicAlignment />
     <RiskManagement />
     <FinancialManagement />

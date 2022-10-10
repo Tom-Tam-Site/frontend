@@ -16,15 +16,11 @@ import About from "./pages/about/about";
 import BusinessConsulting from "./pages/consulting/business-consulting";
 import Coaching from "./pages/coaching/coaching";
 import SpiritualDevelopment from "./pages/spirituality/spiritual-development";
-import PersonalFinances from "./pages/finance/personal-finances";
-
-// import global events
-import Articles from "./pages/news/articles/articles";
-import Blog from "./pages/news/blog/blog";
+import News from "./pages/news/news";
 
 function App() {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <NavigationBar />
       <Container className="App">
         <Routes>
@@ -36,10 +32,7 @@ function App() {
             path="/spirituality"
             element={<SpiritualDevelopment />}
           ></Route>
-          <Route path="/finance" element={<PersonalFinances />}></Route>
-
-          <Route path="/articles" element={<Articles />}></Route>
-          <Route path="/blog" element={<Blog />}></Route>
+          <Route path="/news" element={<News />}></Route>
         </Routes>
       </Container>
       <Footer />
