@@ -9,7 +9,7 @@
   text-decoration: underline !important;
 }
 
-.drop-link:focus {
-  background-color: #b2bec3 !important;
-  color: black !important;
+.link {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

@@ -6,7 +6,7 @@ let currentYear = new Date().getFullYear();
 
 const Footer = () => (
   <div className="footer">
-    <footer className="py-4 bg-light fixed-bottom">
+    <footer className="py-2 bg-light fixed-bottom">
       <div className="container text-center">
         <small> Tom Tam &copy; {currentYear}</small>
       </div>

@@ -12,6 +12,10 @@
 
 .principle {
   border: dashed 1px #ccc;
-  border-radius: 50%;
+  border-radius: 5%;
   margin-top: 1rem;
+}
+
+.principle-img {
+  width: 2rem;
 }
