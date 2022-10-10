@@ -56,9 +56,9 @@ const renderPrinciples = function (item) {
                     <p>{item.principles.t.descriptionP1}</p>
                     <p>{item.principles.t.descriptionP2}</p>
                   </div>
-                  <div className="col text-center principle-img">
+                  <div className="text-center principle-img">
                     <img
-                      className=".img-fluid"
+                      className="img-fluid"
                       src={item.principles.t.img}
                       alt={item.principles.t.action}
                     />
@@ -74,9 +74,9 @@ const renderPrinciples = function (item) {
                     <p>{item.principles.a.descriptionP1}</p>
                     <p>{item.principles.a.descriptionP2}</p>
                   </div>
-                  <div className="col text-center principle-img">
+                  <div className="text-center principle-img">
                     <img
-                      className=".img-fluid"
+                      className="img-fluid"
                       src={item.principles.a.img}
                       alt={item.principles.a.action}
                     />
@@ -92,9 +92,9 @@ const renderPrinciples = function (item) {
                     <p>{item.principles.m.descriptionP1}</p>
                     <p>{item.principles.m.descriptionP2}</p>
                   </div>
-                  <div className="col text-center principle-img">
+                  <div className="text-center principle-img">
                     <img
-                      className=".img-fluid"
+                      className="img-fluid"
                       src={item.principles.m.img}
                       alt={item.principles.m.action}
                     />
