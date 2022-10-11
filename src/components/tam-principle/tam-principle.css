@@ -20,3 +20,15 @@
   width: 1rem;
   padding: 1rem;
 }
+
+.principle-title {
+  font-size: 10rem !important;
+}
+
+h4 {
+  font-size: 1.4rem !important;
+}
+
+img {
+  border-radius: 10%;
+}

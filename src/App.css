@@ -1,10 +1,13 @@
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Lobster Two", cursive !important;
+}
+
+h3,
+h5 h4,
+h6,
+.bolded {
+  font-family: "Noto Serif Telugu", serif;
 }
 
 body,
@@ -19,4 +22,18 @@ footer {
 
 .parent-component > * {
   margin: 1rem;
+}
+
+.bolded-inline {
+  font-family: "Noto Serif Telugu", serif;
+  padding-right: 0.5rem;
+}
+
+.bolded-inline-surrounded {
+  font-family: "Noto Serif Telugu", serif;
+  padding: 0.5rem;
+}
+
+.paragraph {
+  margin: 0.5rem;
 }
