@@ -4,85 +4,6 @@ import "./tam-principle.css";
 import { render } from "@testing-library/react";
 import Accordion from "react-bootstrap/Accordion";
 
-const renderPrinciples = function (item) {
-  // formatted principles
-  let t = item.principles[0];
-  let a = item.principles[1];
-  let m = item.principles[2];
-
-  return (
-    <div className="  ">
-      <div class="card bg-light principle">
-        <div class="card-body">
-          <h3 class="card-title">{item.name}</h3>
-          <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>
-                <h5>{item.principles.t.action}</h5>
-              </Accordion.Header>
-              <Accordion.Body>
-                <div className="row">
-                  <div className="col-lg">
-                    <h4>{item.principles.t.descriptionP1}</h4>
-                    <p>{item.principles.t.descriptionP2}</p>
-                  </div>
-                  <div className="col text-center principle-img">
-                    <img
-                      className="img-fluid"
-                      src={item.principles.t.img}
-                      alt={item.principles.t.action}
-                    />
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>
-                <h5>{item.principles.a.action}</h5>
-              </Accordion.Header>
-              <Accordion.Body>
-                <div className="row">
-                  <div className="col-lg">
-                    <h4>{item.principles.a.descriptionP1}</h4>
-                    <p>{item.principles.a.descriptionP2}</p>
-                  </div>
-                  <div className="col text-center principle-img">
-                    <img
-                      className="img-fluid"
-                      src={item.principles.a.img}
-                      alt={item.principles.a.action}
-                    />
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>
-                <h5>{item.principles.m.action}</h5>
-              </Accordion.Header>
-              <Accordion.Body>
-                <div className="row">
-                  <div className="col-lg">
-                    <h4>{item.principles.m.descriptionP1}</h4>
-                    <p>{item.principles.m.descriptionP2}</p>
-                  </div>
-                  <div className="col text-center principle-img">
-                    <img
-                      className="img-fluid"
-                      src={item.principles.m.img}
-                      alt={item.principles.m.action}
-                    />
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 const TamPrinciple = () => (
   <div className="tam-principle row">
     <div id="Strategy and Goal Execution">
@@ -193,7 +114,7 @@ const TamPrinciple = () => (
                   <div className="col-lg text-center principle-img m-2">
                     <img
                       className="img-fluid"
-                      src="images/tam-principles/strategy/team.png"
+                      src="images/tam-principles/strategy/success.png"
                       alt="tam-principle"
                     />
                   </div>
@@ -220,7 +141,7 @@ const TamPrinciple = () => (
                   <div className="col-lg text-center principle-img m-2">
                     <img
                       className="img-fluid"
-                      src="images/tam-principles/strategy/success.png"
+                      src="images/tam-principles/strategy/team.png"
                       alt="tam-principle"
                     />
                   </div>
