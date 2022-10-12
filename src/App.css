@@ -4,10 +4,12 @@ h2 {
 }
 
 h3,
-h5 h4,
+h5,
+h4,
 h6,
 .bolded {
   font-family: "Noto Serif Telugu", serif;
+  margin-bottom: 0 !important;
 }
 
 body,

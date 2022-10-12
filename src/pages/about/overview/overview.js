@@ -1,6 +1,7 @@
 import React from "react";
 import "./overview.css";
 import TamPrinciple from "../../../components/tam-principle/tam-principle";
+import Contact from "../../../components/contact/contact";
 
 // to be updated with cms dynamically.
 let title = "Overview of Services";
@@ -10,7 +11,10 @@ const Overview = () => (
   <div className="overview container-fluid">
     <div className="text-center row">
       <div className="col-lg">
-        <img src={imgSrc} alt="profile" className="profile img-fluid" />
+        <div className="col">
+          <img src={imgSrc} alt="profile" className="profile img-fluid" />
+        </div>
+        <Contact />
       </div>
       <div className="col">
         <h2>{title}</h2>
