@@ -9,7 +9,7 @@ const RiskTam = () => (
       <div id="Risk Management">
         <div class="card bg-light principle">
           <div class="card-body">
-            <h3 class="card-title">Risk Management</h3>
+            <h3 class="card-title text-center">Risk Management</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
