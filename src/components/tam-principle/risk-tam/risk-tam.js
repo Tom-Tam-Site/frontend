@@ -123,6 +123,92 @@ const RiskTam = () => (
                   </div>
                 </Accordion.Body>
               </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  <h5>Mitigate Risk</h5>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <div className="row container">
+                    <div className=" text-center principle-img m-2">
+                      <img
+                        className="img-fluid"
+                        src="images/tam-principles/risk/mitigate-1.png"
+                        alt="tam-principle"
+                      />
+                    </div>
+                    <div className="pt-4 col-lg">
+                      <div className="paragraph">
+                        <span className="bolded-inline">
+                          For risks that are low likelihood and high severity,
+                          mitigation strategies should be developed to reduce
+                          the risk.
+                        </span>
+                        <span>
+                          An example of this type of risk is a 7.0 earthquake on
+                          the Richter scale. These types of infrequent
+                          “hundred-year” events may not be experienced in some
+                          people’s lifetime. But when these risks are realized,
+                          they have severe consequences to those that are
+                          impacted.
+                        </span>
+                      </div>
+                      <div className="paragraph">
+                        <span>
+                          In this example, risk mitigation strategies could
+                          include more stringent building code requirements that
+                          ensure buildings have earthquake-resistant designs by
+                          incorporating ductility within the structure and its
+                          structural members. A ductile building can bend and
+                          flex when exposed to the horizontal or vertical shear
+                          forces of an earthquake.
+                        </span>
+                      </div>
+                      <div className="paragraph">
+                        <span className="bolded">
+                          The principle of risk mitigation is to have a good
+                          understanding of the likelihood and severity of
+                          activities and events that can occur, and to design
+                          and execute risk reduction and controls to reduce the
+                          risk within cost/benefit and resource constraints.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row container">
+                    <div className="text-center principle-img m-2">
+                      <img
+                        className="img-fluid"
+                        src="images/tam-principles/risk/mitigate-2.png"
+                        alt="tam-principle"
+                      />
+                    </div>
+                    <div className="pt-4 col-lg">
+                      <div className="paragraph">
+                        <span className="bolded-inline">
+                          Risks that have high likelihood and low severity are
+                          often ignored because one occurrence may seem like an
+                          immaterial negative effect.
+                        </span>
+                        <span>
+                          But when accumulated repeatedly over time, the
+                          negative impact could be undesirable. An example of
+                          this type of risk is a leaky ceiling that starts with
+                          occasional drops of water. If the leak is left to
+                          progress without investigating the cause and source of
+                          the leak, then over time the leak will become more
+                          pronounced and greater damage will result.
+                        </span>
+                      </div>
+                      <div className="paragraph bolded">
+                        Good risk mitigation requires risk identification, risk
+                        assessment, risk reduction actions, and risk control
+                        monitoring to reduce exposure to negative outcomes in
+                        business and to individuals.
+                      </div>
+                    </div>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
             </Accordion>
           </div>
         </div>
