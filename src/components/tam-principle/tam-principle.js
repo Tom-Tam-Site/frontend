@@ -9,7 +9,7 @@ import RiskTam from "./risk-tam/risk-tam";
 const TamPrinciple = () => (
   <div className="parent-component">
     <div className="text-center">
-      <h2>T.A.M Principles</h2>
+      <h2>TAM Principles</h2>
     </div>
     <StrategyTam />
     <RiskTam />

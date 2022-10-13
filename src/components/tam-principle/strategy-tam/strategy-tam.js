@@ -9,7 +9,7 @@ const StrategyTam = () => (
       <div id="Strategy and Goal Execution">
         <div class="card bg-light principle">
           <div class="card-body">
-            <h3 class="card-title">Strategy and Goal Execution</h3>
+            <h3 class="card-title text-center">Strategy and Goal Execution</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
