@@ -1,0 +1,12 @@
+.TrainingTam {
+}
+ul {
+  position: relative;
+  list-style: none;
+}
+
+li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+}

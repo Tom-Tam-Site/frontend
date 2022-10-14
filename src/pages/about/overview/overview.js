@@ -38,6 +38,9 @@ const Overview = () => (
       </div>
     </div>
     <br />
+    <div className="text-center">
+      <h2>TAM Principles</h2>
+    </div>
     <TamPrinciple />
   </div>
 );
