@@ -5,14 +5,13 @@ import { render } from "@testing-library/react";
 
 import StrategyTam from "./strategy-tam/strategy-tam";
 import RiskTam from "./risk-tam/risk-tam";
+import TrainingTam from "./training-tam/training-tam";
 
 const TamPrinciple = () => (
   <div className="parent-component">
-    <div className="text-center">
-      <h2>TAM Principles</h2>
-    </div>
     <StrategyTam />
     <RiskTam />
+    <TrainingTam />
   </div>
 );
 
