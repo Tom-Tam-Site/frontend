@@ -39,3 +39,8 @@ footer {
 .paragraph {
   margin: 0.5rem;
 }
+
+.btn {
+  /* padding-bottom: 0px !important; */
+  margin-bottom: 0px !important;
+}

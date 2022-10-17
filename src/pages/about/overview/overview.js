@@ -11,13 +11,13 @@ const Overview = () => (
   <div className="overview container-fluid">
     <div className="text-center row">
       <div className="col-lg">
-        <div className="col">
+        <div className="col mt-5">
           <img src={imgSrc} alt="profile" className="profile img-fluid" />
         </div>
         <Contact />
       </div>
       <div className="col">
-        <h2>{title}</h2>
+        <h2 className="mt-4">{title}</h2>
         <br />
         <p className="text-start">
           Tom Tam is a <span className="bolded">visionary servant leader</span>,
@@ -32,16 +32,19 @@ const Overview = () => (
           their families. He came up with{" "}
           <span className="bolded">
             an acronym using his last name TAM to highlight three important
-            areas of focus for both businesses and individuals.
+            areas of focus for both businesses and individuals. {""}
           </span>
+          <div className="text-center mt-1">
+            <TamPrinciple />
+          </div>
         </p>
       </div>
     </div>
     <br />
-    <div className="text-center">
+    {/* <div className="text-center">
       <h2>TAM Principles</h2>
     </div>
-    <TamPrinciple />
+    <TamPrinciple /> */}
   </div>
 );
 
