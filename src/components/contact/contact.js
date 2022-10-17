@@ -12,7 +12,7 @@ const Contact = () => {
         data-bs-target="#contactInfo"
         aria-controls="contactInfo"
       >
-        Contact Information
+        Contact information
       </button>
 
       <div

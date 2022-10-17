@@ -32,3 +32,11 @@ h4 {
 img {
   border-radius: 10%;
 }
+
+.offcanvas.offcanvas-end {
+  width: 90% !important;
+}
+
+.paragraph {
+  text-align: start !important;
+}

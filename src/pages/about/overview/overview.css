@@ -3,10 +3,16 @@
 
 .profile {
   border-radius: 20%;
-  margin: 2rem;
+  margin: 1rem;
   width: 16rem !important;
+  box-shadow: 5px 10px #dee2e6;
 }
 
 .card {
   border: none !important;
+}
+
+.btn {
+  font-family: "Lobster Two", cursive !important;
+  font-size: 1.5rem !important;
 }
