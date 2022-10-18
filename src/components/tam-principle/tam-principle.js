@@ -17,7 +17,7 @@ const TamPrinciple = () => {
         data-bs-target="#offcanvasRight"
         aria-controls="offcanvasRight"
       >
-        Tam Principles
+        See TAM Principles
       </button>
       <div
         class="offcanvas offcanvas-end"
