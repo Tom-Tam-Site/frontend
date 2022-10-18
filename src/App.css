@@ -44,3 +44,7 @@ footer {
   /* padding-bottom: 0px !important; */
   margin-bottom: 0px !important;
 }
+
+.btn:hover {
+  text-decoration: underline;
+}
