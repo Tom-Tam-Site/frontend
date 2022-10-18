@@ -13,7 +13,8 @@ const RiskTam = () => (
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h5>Transfer Risk</h5>
+                  <h2>T</h2>
+                  <h5>ransfer Risk</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -82,7 +83,8 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h5>Accept Risk</h5>
+                  <h2 className="A">A</h2>
+                  <h5>ccept Risk</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -125,7 +127,8 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h5>Mitigate Risk</h5>
+                  <h2 className="M">M</h2>
+                  <h5>itigate Risk</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">

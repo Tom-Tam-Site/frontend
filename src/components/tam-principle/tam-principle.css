@@ -40,3 +40,15 @@ img {
 .paragraph {
   text-align: start !important;
 }
+
+.A {
+  margin-right: 0.2rem;
+}
+
+.M {
+  margin-right: 0.1rem;
+}
+
+.principles-heading {
+  margin-left: 1.5rem;
+}

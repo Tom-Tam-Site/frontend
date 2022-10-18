@@ -25,9 +25,10 @@ const TamPrinciple = () => {
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
       >
-        <div class="offcanvas-header bg-light">
-          <h2 class="offcanvas-title" id="offcanvasRightLabel">
-            Tam Principles
+        <div class="offcanvas-header bg-light ">
+          <h2 class="offcanvas-title " id="offcanvasRightLabel">
+            <span className="">T A M</span>
+            <span className="principles-heading">Principles</span>
           </h2>
           <button
             type="button"

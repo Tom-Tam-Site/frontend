@@ -13,7 +13,8 @@ const TrainingTam = () => (
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h5>Teach</h5>
+                  <h2>T</h2>
+                  <h5>each</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -76,7 +77,8 @@ const TrainingTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h5>Apply</h5>
+                  <h2 className="A">A</h2>
+                  <h5>pply</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -137,7 +139,8 @@ const TrainingTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h5>Model Behaviors</h5>
+                  <h2 className="M">M</h2>
+                  <h5>odel Behaviors</h5>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
