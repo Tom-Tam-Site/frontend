@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <button
-        class="btn btn-success contact-btn"
+        class="btn btn-dark contact-btn"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#contactInfo"

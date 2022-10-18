@@ -4,7 +4,7 @@
 .profile {
   border-radius: 20%;
   margin: 1rem;
-  width: 16rem !important;
+  width: 20rem !important;
   box-shadow: 5px 10px #dee2e6;
 }
 
@@ -12,7 +12,8 @@
   border: none !important;
 }
 
-.btn {
+.btn,
+.emphasis {
   font-family: "Lobster Two", cursive !important;
   font-size: 1.5rem !important;
 }

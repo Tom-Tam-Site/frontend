@@ -1,7 +1,8 @@
 import React from "react";
 import "./overview.css";
-import TamPrinciple from "../../../components/tam-principle/tam-principle";
+import TamPrinciple from "./tam-principle/tam-principle";
 import Contact from "../../../components/contact/contact";
+import ProfessionalQualifications from "./professional-qualifications/professional-qualifications";
 
 // to be updated with cms dynamically.
 let title = "Overview of Services";
@@ -10,14 +11,14 @@ let imgSrc = "images/profile.png";
 const Overview = () => (
   <div className="overview container-fluid">
     <div className="text-center row">
-      <div className="col-lg">
+      <div className="col-lg ">
         <div className="col mt-5">
           <img src={imgSrc} alt="profile" className="profile img-fluid" />
         </div>
         <Contact />
       </div>
       <div className="col">
-        <h2 className="mt-4">{title}</h2>
+        <h2 className="mt-4 title">{title}</h2>
         <br />
         <p className="text-start">
           Tom Tam is a <span className="bolded">visionary servant leader</span>,
@@ -41,10 +42,7 @@ const Overview = () => (
       </div>
     </div>
     <br />
-    {/* <div className="text-center">
-      <h2>TAM Principles</h2>
-    </div>
-    <TamPrinciple /> */}
+    <ProfessionalQualifications />
   </div>
 );
 

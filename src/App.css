@@ -45,6 +45,7 @@ footer {
   margin-bottom: 0px !important;
 }
 
-.btn:hover {
+.btn:hover,
+.title {
   text-decoration: underline;
 }
