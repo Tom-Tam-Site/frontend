@@ -61,7 +61,7 @@ const ProfessionalQualifications = () => (
           </div>
         </div>
       </div>
-      <div className="col-lg text-center">
+      <div className="col-lg text-center py-3">
         <h2>Partial Employers and Clients list</h2>
         <img src="/images/experience.jpg" className="img-fluid" />
       </div>
