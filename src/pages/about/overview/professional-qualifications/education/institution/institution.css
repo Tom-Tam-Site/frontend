@@ -1,0 +1,10 @@
+.institution {
+  /* border: dashed 1px; */
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.degree {
+  text-decoration: underline;
+}
