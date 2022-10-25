@@ -20,7 +20,7 @@ const TamPrinciple = () => {
         See TAM Principles
       </button>
       <div
-        class="offcanvas offcanvas-end"
+        class="offcanvas offcanvas-end size-90"
         tabindex="-1"
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"

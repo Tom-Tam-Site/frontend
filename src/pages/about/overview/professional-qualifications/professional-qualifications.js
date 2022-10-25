@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./professional-qualifications.css";
+import Education from "./education/education";
 
 const ProfessionalQualifications = () => (
   <div className="professional-qualifications">
@@ -27,9 +28,7 @@ const ProfessionalQualifications = () => (
         <button className="btn btn-success btn-testimonials">
           See Testimonials
         </button>
-        <button className="btn btn-success btn-testimonials">
-          See Education and Credentials
-        </button>
+        <Education />
       </div>
     </div>
     <div className="row">
@@ -46,7 +45,9 @@ const ProfessionalQualifications = () => (
           <span className="bolded">
             leading turnaround efforts, acquisitions, and divestitures.
           </span>
-           He followed that with ten years in{" "}
+        </div>
+        <div className="paragraph">
+          He followed that with ten years in{" "}
           <span className="bolded">senior executive positions </span>
           helping global organizations develop and implement {""}
           <span className="bolded">enterprise risk management processes.</span>
@@ -61,8 +62,8 @@ const ProfessionalQualifications = () => (
         </div>
       </div>
       <div className="col-lg text-center">
-        <h2 className="pt-5 mt-5">Image goes here!</h2>
-        <h2>Employers and Clients</h2>
+        <h2>Partial Employers and Clients list</h2>
+        <img src="/images/experience.jpg" className="img-fluid" />
       </div>
     </div>
     <div className="paragraph">
