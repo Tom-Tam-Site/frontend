@@ -9,7 +9,7 @@ let title = "Overview of Services";
 let imgSrc = "images/profile.png";
 
 const Overview = () => (
-  <div className="overview container-fluid">
+  <div className="overview">
     <div className="text-center row">
       <div className="col-lg ">
         <div className="col mt-5">
