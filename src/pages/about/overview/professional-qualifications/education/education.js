@@ -8,14 +8,14 @@ const Education = () => (
     <a
       className="btn btn-success btn-testimonials"
       data-bs-toggle="collapse"
-      href="#collapseExample"
+      href="#collapseEducation"
       role="button"
       aria-expanded="false"
-      aria-controls="collapseExample"
+      aria-controls="collapseEducation"
     >
-      See Education and Credentials
+      See Education and Certification
     </a>
-    <div className="collapse" id="collapseExample">
+    <div className="collapse" id="collapseEducation">
       <div className="card card-body text-center">
         <div className="row">
           <div className="col-lg">

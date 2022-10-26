@@ -4,3 +4,13 @@
 .contact-btn {
   margin-bottom: 1rem;
 }
+
+.parent > * {
+  margin: 0.4rem;
+  color: green;
+  text-decoration: none;
+}
+
+.parent > *:hover {
+  color: black;
+}

@@ -8,31 +8,18 @@ const Contact = () => {
       <button
         class="btn btn-dark contact-btn"
         type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#contactInfo"
-        aria-controls="contactInfo"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseContact"
+        aria-expanded="false"
+        aria-controls="collapseContact"
       >
         Contact information
       </button>
-
-      <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="contactInfo"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div class="offcanvas-header bg-light">
-          <h2 class="offcanvas-title" id="offcanvasExampleLabel">
-            Contact Information
-          </h2>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
+      <div class="collapse" id="collapseContact">
+        <div class="card card-body parent">
+          <a href="mailto:ttktam@gmail.com">✉️ ttktam@gmail.com</a>
+          <a href="tel:+7024286216"> 📞 (702) 428-6216</a>
         </div>
-        <div class="offcanvas-body"></div>
       </div>
     </div>
   );

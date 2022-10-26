@@ -50,7 +50,7 @@ const ProfessionalQualifications = () => (
           He followed that with ten years in{" "}
           <span className="bolded">senior executive positions </span>
           helping global organizations develop and implement {""}
-          <span className="bolded">enterprise risk management processes.</span>
+          <span className="bolded">enterprise risk management processes.</span>
           <div>
             <span className="title">World-class organizations</span> Tom served
             include{" "}
@@ -62,7 +62,6 @@ const ProfessionalQualifications = () => (
         </div>
       </div>
       <div className="col-lg text-center py-3">
-        <h2>Partial Employers and Clients list</h2>
         <img src="/images/experience.jpg" className="img-fluid" />
       </div>
     </div>
