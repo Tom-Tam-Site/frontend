@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => (
   <div className="navigation-bar">
-    <Navbar collapseOnSelect bg="light" sticky="top" expand="lg">
+    <Navbar bg="light" sticky="top" expand="lg">
       <Container>
         <Navbar.Brand>
           <h1>Tom Tam</h1>
