@@ -17,6 +17,8 @@ body,
 footer {
   font-family: "Raleway", sans-serif !important;
   font-size: 1.35rem !important;
+  background-color: white !important;
+  color: black !important;
 }
 
 .App {

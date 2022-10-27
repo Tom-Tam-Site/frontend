@@ -4,3 +4,8 @@
 .btn-testimonials {
   margin: 0.5rem;
 }
+
+.experience {
+  border-radius: 10%;
+  border: 0.2px solid black;
+}

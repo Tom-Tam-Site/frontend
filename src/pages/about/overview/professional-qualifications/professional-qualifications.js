@@ -24,10 +24,7 @@ const ProfessionalQualifications = () => (
         aligning people, processes, and technologies to drive risk-controlled
         profitable growth.
       </span>
-      <div className="text-end">
-        <button className="btn btn-success btn-testimonials">
-          See Testimonials
-        </button>
+      <div className="text-center">
         <Education />
       </div>
     </div>
@@ -61,8 +58,8 @@ const ProfessionalQualifications = () => (
           </div>
         </div>
       </div>
-      <div className="col-lg text-center py-3">
-        <img src="/images/experience.jpg" className="img-fluid" />
+      <div className="col-lg text-center d-flex align-items-center justify-content-center experience">
+        <img src="/images/experience.png" className="img-fluid" />
       </div>
     </div>
     <div className="paragraph">
@@ -80,6 +77,11 @@ const ProfessionalQualifications = () => (
       <div className="bolded mt-2 text-center emphasis">
         Tom has coached hundreds of professionals in their careers and personal
         growth.
+      </div>
+      <div className="text-center">
+        <button className="btn btn-success btn-testimonials">
+          See Testimonials
+        </button>
       </div>
     </div>
   </div>
