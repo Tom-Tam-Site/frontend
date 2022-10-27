@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <NavigationBar />
-      <Container className="App">
+      <Container fluid="lg" className="App">
         <Routes>
           <Route path="/" element={<About />}></Route>
 
