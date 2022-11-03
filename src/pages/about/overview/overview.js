@@ -2,7 +2,6 @@ import React from "react";
 import "./overview.css";
 import TamPrinciple from "../../../components/tam-principle/tam-principle";
 import Contact from "../../../components/contact/contact";
-import ProfessionalQualifications from "./professional-qualifications/professional-qualifications";
 
 // to be updated with cms dynamically.
 let title = "Overview of Services";
@@ -42,7 +41,6 @@ const Overview = () => (
       </div>
     </div>
     <br />
-    <ProfessionalQualifications />
   </div>
 );
 

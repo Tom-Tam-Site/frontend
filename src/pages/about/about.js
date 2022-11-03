@@ -1,14 +1,14 @@
 import React from "react";
 import "./about.css";
 import Overview from "./overview/overview";
-import Qualifications from "./qualifications/qualifications";
-import Endorsements from "./endorsements/endorsements";
+import ProfessionalQualifications from "./professional-qualifications/professional-qualifications";
+import Testimonials from "./testimonials/testimonials";
 
 const About = () => (
   <div className="about parent-component">
     <Overview />
-    {/* <Qualifications />
-    <Endorsements /> */}
+    <ProfessionalQualifications />
+    <Testimonials />
   </div>
 );
 
