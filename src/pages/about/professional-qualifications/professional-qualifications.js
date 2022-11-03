@@ -78,11 +78,6 @@ const ProfessionalQualifications = () => (
         Tom has coached hundreds of professionals in their careers and personal
         growth.
       </div>
-      <div className="text-center">
-        <button className="btn btn-success btn-testimonials">
-          See Testimonials
-        </button>
-      </div>
     </div>
   </div>
 );

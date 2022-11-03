@@ -1,0 +1,22 @@
+.testimonials-picture {
+  width: 6rem;
+  border-radius: 50%;
+  padding-bottom: 0.5rem;
+}
+
+.testimonial-text {
+  font-size: 1.3rem;
+}
+
+.text-container {
+  margin-left: 5rem;
+  margin-right: 5em;
+}
+
+.position {
+  font-size: 0.8rem;
+}
+
+.name {
+  font-size: 0.9rem;
+}
