@@ -28,7 +28,7 @@ const Testimonials = () => (
         <Person
           img="images/testimonials/MarkOlson.jpeg"
           name="Mark Olson"
-          position="Executive VP &CFO, Fortis Private Bank"
+          position="Executive VP & CFO, Fortis Private Bank"
           testimony=<div>
             <span>"He is highly strategic in his thinking… </span>
             <span className="bolded">excellent problem-solving skills</span>
