@@ -52,3 +52,17 @@ footer {
 .title {
   text-decoration: underline;
 }
+
+.embedded-link {
+  display: inline-block;
+}
+
+.embedded-link:hover {
+  text-decoration: underline;
+}
+
+.vertically-centered {
+  padding: 150px 0;
+
+  text-align: center;
+}
