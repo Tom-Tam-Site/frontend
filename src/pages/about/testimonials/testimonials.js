@@ -77,6 +77,24 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
+      <Carousel.Item className="">
+        <Person
+          img="images/testimonials/DavidDelSol.jpeg"
+          name="David Del Sol"
+          position="Software Engineer, Gap Inc"
+          testimony=<div>
+            <div>
+              Tom Tam is an exceptional servant leader.
+              <div className="bolded">
+                His mentorship, commitment, and principle-based guidance for
+                self-improvement
+              </div>{" "}
+              have had a profound impact on my personal growth and professional
+              success.
+            </div>
+          </div>
+        />
+      </Carousel.Item>
     </Carousel>
   </div>
 );
