@@ -13,7 +13,6 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/about/about";
 
 // import services
-import BusinessConsulting from "./pages/consulting/business-consulting";
 import Coaching from "./pages/coaching/coaching";
 import SpiritualDevelopment from "./pages/spirituality/spiritual-development";
 import News from "./pages/news/news";
@@ -26,7 +25,6 @@ function App() {
         <Routes>
           <Route path="/" element={<About />}></Route>
 
-          <Route path="/consulting" element={<BusinessConsulting />}></Route>
           <Route path="/coaching" element={<Coaching />}></Route>
           <Route
             path="/spirituality"

@@ -4,7 +4,7 @@ import "./professional-qualifications.css";
 import Education from "./education/education";
 
 const ProfessionalQualifications = () => (
-  <div className="professional-qualifications">
+  <div className="professional-qualifications parent-component">
     <h2 className="title text-center">Professional Qualifications</h2>
     <br></br>
     <div className="paragraph">

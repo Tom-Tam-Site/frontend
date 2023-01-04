@@ -19,9 +19,6 @@ const NavigationBar = () => (
             <Nav.Link className="link" as={Link} to="/">
               About
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/consulting">
-              Consulting
-            </Nav.Link>
             <Nav.Link className="link" as={Link} to="/coaching">
               Coaching
             </Nav.Link>

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <button
-        class="btn btn-dark contact-btn"
+        class="btn btn-warning text-light contact-btn"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#collapseContact"

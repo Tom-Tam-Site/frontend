@@ -14,11 +14,8 @@ let imgSrc = "images/profile.png";
 const Overview = () => (
   <div className="overview">
     <div className="text-center row">
-      <div className="col-lg vertically-centered">
-        <div className="col">
-          <img src={imgSrc} alt="profile" className="profile img-fluid" />
-        </div>
-        <Contact />
+      <div className="">
+        <img src={imgSrc} alt="profile" className="profile img-fluid" />
       </div>
       <div className="col">
         <h2 className="mt-4 title">{title}</h2>
@@ -31,17 +28,11 @@ const Overview = () => (
             individuals, and families apply time-tested principles to solve
             their challenging problems. See{" "}
             <span className="bolded embedded-link">
-              <Nav.Link className="embedded-link" as={Link} to="/consulting">
-                Consulting
-              </Nav.Link>
-            </span>{" "}
-            tab for business problem solving,{" "}
-            <span className="bolded embedded-link">
               <Nav.Link className="embedded-link" as={Link} to="/coaching">
                 Coaching
               </Nav.Link>
             </span>{" "}
-            tab for personal problem solving,{" "}
+            tab for personal, and business problem solving,{" "}
             <span className="bolded embedded-link">
               <Nav.Link className="embedded-link" as={Link} to="/spirituality">
                 Spirituality
@@ -56,24 +47,8 @@ const Overview = () => (
             tab for discussion on fact-based discussions on current economic and
             political events.
           </div>
-          <div className="paragraph">
-            By working in the trenches as a problem solver with his clients in
-            diverse settings, Tom saw{" "}
-            <span className="bolded">
-              the power of a principle-based approach to problem solving
-            </span>{" "}
-            that is equally effective in business as well as for individuals and
-            their families.{" "}
-            <span className="bolded">
-              He created an acronym using his last name TAM to highlight three
-              key areas of focus for both businesses and individuals
-            </span>{" "}
-            for his consulting and coaching clients.
-          </div>
-          <div className="text-center mt-1">
-            <TamPrinciple />
-          </div>
         </p>
+        <Contact></Contact>
       </div>
     </div>
     <br />
