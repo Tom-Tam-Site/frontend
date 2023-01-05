@@ -65,7 +65,7 @@ const Testimonials = () => (
         <Person
           img="images/testimonials/AngelinaBanks.jpeg"
           name="Angelina Banks"
-          position="AVP, Regulatory Compliance at Berkley Environmental"
+          position="VP, Regulatory Compliance at Berkley Environmental"
           testimony=<div>
             <span>"</span>
             <span className="bolded">His guidance and motivation</span>
