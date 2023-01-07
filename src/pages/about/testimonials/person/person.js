@@ -11,7 +11,7 @@ const Person = (props) => (
     <div className="person row">
       <div className="">
         <img
-          className="testimonials-picture"
+          className="testimonials-picture profile"
           src={props.img}
           alt={props.name}
         />

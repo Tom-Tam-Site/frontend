@@ -41,6 +41,7 @@ footer {
 
 .paragraph {
   margin: 0.7rem;
+  border-radius: 5%;
 }
 
 .btn {
@@ -51,6 +52,7 @@ footer {
 .btn:hover,
 .title {
   text-decoration: underline;
+  border-radius: 10%;
 }
 
 .embedded-link {

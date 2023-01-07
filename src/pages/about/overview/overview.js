@@ -21,7 +21,7 @@ const Overview = () => (
         <h2 className="mt-4 title">{title}</h2>
         <br />
         <p className="text-start">
-          <div className="paragraph">
+          <div className="paragraph bg-light p-3">
             Tom Tam is a{" "}
             <span className="bolded">visionary servant leader</span>, business
             executive, and coach with over 35 years of helping businesses,

@@ -1,1 +1,10 @@
-.News {}
+.News {
+}
+
+.news-image {
+  width: 30rem !important;
+}
+
+a {
+  color: black;
+}
