@@ -19,6 +19,7 @@ const News = () => (
         Economic and Political Blog
       </a>
     </div>
+
     <div className="row container p-2">
       <div className="text-center principle-img col-lg">
         <img
@@ -46,17 +47,25 @@ const News = () => (
         </div>
       </div>
     </div>
-    <div className="paragraph p-1">
-      In the spirit of{" "}
-      <span className="bolded">proclaiming truth and dispelling falsehood</span>{" "}
-      in these two areas where there are blatant lies and deceit, this blog will
-      help those interested in learning the truth for themselves.{" "}
-      <span className="bolded">
-        We must discern fact-based truth corroborated from creditable sources to
-        avoid being emotionally manipulated by unsupported opinions
-      </span>
-      .
+    <div className="row text-center">
+      <div className="paragraph p-1 col">
+        In the spirit of{" "}
+        <span className="bolded">
+          proclaiming truth and dispelling falsehood
+        </span>{" "}
+        in these two areas where there are blatant lies and deceit, this blog
+        will help those interested in learning the truth for themselves.{" "}
+        <span className="bolded">
+          We must discern fact-based truth corroborated from creditable sources
+          to avoid being emotionally manipulated by unsupported opinions
+        </span>
+        .
+      </div>
+      <div className="col-lg">
+        <img src="images/news/news2.png" className="img-fluid news-image" />
+      </div>
     </div>
+
     <div className="paragraph text-center bg-light p-3">
       This{" "}
       <span className="bolded embedded-link">
