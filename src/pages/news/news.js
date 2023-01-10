@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./news.css";
-
-import { Nav } from "react-bootstrap";
-
-import { Link } from "react-router-dom";
+import Contact from "../../components/contact/contact";
 
 const News = () => (
   <div className="news">
@@ -83,6 +80,9 @@ const News = () => (
       <div className="bolded">
         Your thoughts, comments, and insights are welcomed.
       </div>
+    </div>
+    <div className="text-center">
+      <Contact />
     </div>
   </div>
 );
