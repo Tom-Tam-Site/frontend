@@ -1,11 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
+
 import "./news.css";
 import Contact from "../../components/contact/contact";
 
 const News = () => (
   <div className="news">
-    <div class="d-grid gap-2 col-6 mx-auto">
+    <div class="text-center">
       <a
         class="btn btn-success"
         type="button"
@@ -17,7 +17,7 @@ const News = () => (
       </a>
     </div>
 
-    <div className="row container p-2">
+    <div className="row p-2">
       <div className="text-center principle-img col-lg">
         <img
           className="img-fluid news-image"
@@ -25,7 +25,7 @@ const News = () => (
           alt="tam-principle"
         />
       </div>
-      <div className=" pt-2 col-lg">
+      <div className=" p-2 col-lg">
         <div className="paragraph">
           <span className="bolded">
             Political and economic forces significantly impact our lives and

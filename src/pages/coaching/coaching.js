@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+
 import "./coaching.css";
 import Contact from "../../components/contact/contact";
 

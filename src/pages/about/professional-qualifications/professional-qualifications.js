@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+
 import "./professional-qualifications.css";
 import Education from "./education/education";
 
