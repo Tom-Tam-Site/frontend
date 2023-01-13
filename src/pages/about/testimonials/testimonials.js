@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+
 import "./testimonials.css";
 import Carousel from "react-bootstrap/Carousel";
 import Person from "./person/person";
