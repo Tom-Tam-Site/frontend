@@ -98,7 +98,7 @@ const StrategyTam = () => (
                         </span>
                         <span>
                           There is much heavy lifting to be done in this phase
-                          to appreciate resource requirements, as well as the “
+                          to understand resource requirements, as well as the “
                           <span className="bolded-inline">who’s</span>
                           to do <span className="bolded">what</span> by{" "}
                           <span className="bolded">when</span>” next steps.
@@ -153,7 +153,7 @@ const StrategyTam = () => (
                       <div className="paragraph">
                         <span className="bolded">
                           Accurate and timely management reporting enable
-                          accountability of everyone on the team.
+                          accountability of everyone on the team.{" "}
                         </span>
                         <span>
                           This is essential in correcting mistakes made and
