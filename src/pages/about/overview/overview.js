@@ -44,7 +44,7 @@ const Overview = () => (
                 News Blog
               </Nav.Link>
             </span>{" "}
-            tab for discussion on fact-based discussions on current economic and
+            tab for fact-based discussions and articles for current economic and
             political events.
           </div>
         </p>

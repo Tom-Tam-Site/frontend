@@ -16,8 +16,8 @@ const ProfessionalQualifications = () => (
       <span className="">
         banking, financial services, insurance, investment management, Big-Four
         public accounting, consulting, not-for-profit, global conglomerate
-        operations, and entrepreneurial ventures{" "}
-      </span>{" "}
+        operations, and entrepreneurial ventures
+      </span>
       . He is adept at{" "}
       <span className="bolded">
         {" "}
@@ -49,11 +49,10 @@ const ProfessionalQualifications = () => (
           helping global organizations develop and implement {""}
           <span className="bolded">enterprise risk management processes.</span>
           <div>
-            <span className="title">World-class organizations</span> Tom served
-            include{" "}
+            World-class organizations Tom served include{" "}
             <span className="bolded">
-              PWC, Barclays Global Investors, and the Church of Jesus Christ of
-              Latter-day Saints.
+              KPMG, PWC, Barclays Global Investors, and the Church of Jesus
+              Christ of Latter-day Saints.
             </span>
           </div>
         </div>
