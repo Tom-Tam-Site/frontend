@@ -4,8 +4,10 @@ import "./purpose.css";
 
 const Purpose = () => (
   <div className="purpose">
-    <h2 className="title text-center">What Is Life’s Purpose</h2>
     <div className="row p-3">
+      <div className="col-lg">
+        <img src="images/spiritual/baby.png" className="img-fluid" />
+      </div>
       <div className="col-lg">
         <p className="pt-3 paragraph">
           <span className="bolded">
@@ -19,10 +21,10 @@ const Purpose = () => (
           birth to give us life. Our first relationships on earth are our
           parents that gave us our physical bodies.
         </p>
-        <img src="images/spiritual/baby.png" className="img-fluid" />
       </div>
+    </div>
+    <div className="row p-3">
       <div className="col-lg">
-        <img src="images/spiritual/family.png" className="img-fluid" />
         <p className="pt-3 paragraph">
           <span className="bolded">
             When we die, after a relatively short sojourn on earth, we also
@@ -36,6 +38,9 @@ const Purpose = () => (
           relationships have lasting bonds and spiritual imprint in our
           character, as well as significance to those whose lives we touched.
         </p>
+      </div>
+      <div className="col-lg">
+        <img src="images/spiritual/family.png" className="img-fluid" />
       </div>
     </div>
     <div className="paragraph">
