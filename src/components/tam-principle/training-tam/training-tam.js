@@ -175,6 +175,7 @@ const TrainingTam = () => (
                             </span>
                             <span>stage in the TAM acronym –</span>
                             <span className="bolded">
+                              {" "}
                               this is the “what” that is being taught.
                             </span>
                           </li>
@@ -188,6 +189,7 @@ const TrainingTam = () => (
                               being taught –
                             </span>
                             <span className="bolded">
+                              {" "}
                               this is the “why” that brings relevance to the
                               learner.
                             </span>

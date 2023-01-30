@@ -22,7 +22,7 @@ const RiskTam = () => (
                       <div className="paragraph">
                         <span className="bolded-inline">
                           Risk management is unfortunately viewed by most as a
-                          burden and expense that negatively impacts the bottom
+                          burden and expense that negatively impact the bottom
                           line of both businesses and individuals.
                         </span>
                         <span>
@@ -62,7 +62,7 @@ const RiskTam = () => (
                           transfer the risk of loss to an insurance company. An
                           example of transferring a known high-risk event would
                           be Florida businesses and homeowners buying hurricane
-                          and flood insurance.
+                          and flood insurance.{" "}
                         </span>
                         <span className="bolded">
                           A risk assessment should be performed for all business
@@ -106,13 +106,14 @@ const RiskTam = () => (
                           In essence, for low-risk business and personal
                           activities, being self-insured means a willingness to
                           bear the consequences and costs for these risks if
-                          they are realized.
+                          they are realized.{" "}
                         </span>
-                        <span className="bolded-inline-surrounded">
+                        <span className="bolded">
                           The negative impact to the bottom line should be
                           immaterial because they occur so infrequently, and
                           they have low impact even if they do
                         </span>
+                        .
                       </div>
                       <div className="paragraph">
                         <span>
