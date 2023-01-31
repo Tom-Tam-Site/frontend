@@ -202,7 +202,7 @@ const TrainingTam = () => (
                             <span>
                               in the TAM acronym and shows the learner the
                               actions that will bring the desired outcome –
-                            </span>
+                            </span>{" "}
                             <span className="bolded">
                               this is the “how” that changes and aligns behavior
                               to achieve the targeted goals.

@@ -4,11 +4,11 @@ import "./purpose.css";
 
 const Purpose = () => (
   <div className="purpose">
-    <div className="row p-3">
+    <div className="row pt-5">
       <div className="col-lg">
-        <img src="images/spiritual/baby.png" className="img-fluid" />
+        <img src="images/spiritual/baby2.png" className="img-fluid" />
       </div>
-      <div className="col-lg">
+      <div className="col-lg pt-5">
         <p className="pt-3 paragraph">
           <span className="bolded">
             Each of us is born into this world without any worldly possession.
@@ -24,8 +24,8 @@ const Purpose = () => (
       </div>
     </div>
     <div className="row p-3">
-      <div className="col-lg">
-        <p className="pt-3 paragraph">
+      <div className="col-lg pt-5">
+        <p className="paragraph">
           <span className="bolded">
             When we die, after a relatively short sojourn on earth, we also
             leave this earth without any worldly possessions. There are two
