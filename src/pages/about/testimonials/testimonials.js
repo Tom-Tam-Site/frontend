@@ -87,13 +87,13 @@ const Testimonials = () => (
           position="Software Engineer, Gap Inc"
           testimony=<div>
             <div>
-              Tom Tam is an exceptional servant leader.
+              "Tom Tam is an exceptional servant leader.
               <div className="bolded">
                 His mentorship, commitment, and principle-based guidance for
                 self-improvement
               </div>{" "}
               have had a profound impact on my personal growth and professional
-              success.
+              success."
             </div>
           </div>
         />
