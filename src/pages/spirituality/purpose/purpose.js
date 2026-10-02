@@ -35,7 +35,7 @@ const Purpose = () => (
             </span>
           </span>
           . At our death, as our spirit leaves our body, those enduring
-          relationships have lasting bonds and spiritual imprint in our
+          relationships have lasting bonds and value imprint in our
           character, as well as significance to those whose lives we touched.
         </p>
       </div>
@@ -47,7 +47,7 @@ const Purpose = () => (
       <span className="bolded">Hopefully</span>, during the years between birth
       and death,{" "}
       <span className="bolded">
-        our character will have grown by living time-tested spiritual principles
+        our character will have grown by living time-tested moral principles
         and values
       </span>{" "}
       that have molded our character as internalized by our spirit.{" "}

@@ -5,7 +5,7 @@ import Contact from "../../components/contact/contact";
 
 const News = () => (
   <div className="news">
-    <div class="text-center">
+    <div className="text-center">
       <a
         class="btn btn-success"
         type="button"
@@ -13,7 +13,7 @@ const News = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Economic and Political Blog
+        Economic and Political Articles
       </a>
     </div>
 

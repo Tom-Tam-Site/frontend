@@ -2,7 +2,7 @@ import React from "react";
 
 import "./navigation-bar.css";
 
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 
@@ -22,11 +22,11 @@ const NavigationBar = () => (
             <Nav.Link className="link" as={Link} to="/coaching">
               Coaching
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/spirituality">
-              Spirituality
+            <Nav.Link className="link" as={Link} to="/character-development">
+              Character Development
             </Nav.Link>
-            <Nav.Link className="link" as={Link} to="/news">
-              News Blog
+            <Nav.Link className="link" as={Link} to="/insights">
+              Insights
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -27,9 +27,11 @@ function App() {
 
           <Route path="/coaching" element={<Coaching />}></Route>
           <Route
-            path="/spirituality"
+            path="/character-development"
             element={<SpiritualDevelopment />}
           ></Route>
+          <Route path="/spirituality" element={<SpiritualDevelopment />}></Route>
+          <Route path="/insights" element={<News />}></Route>
           <Route path="/news" element={<News />}></Route>
         </Routes>
       </Container>

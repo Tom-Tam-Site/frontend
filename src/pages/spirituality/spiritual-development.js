@@ -5,7 +5,7 @@ import Contact from "../../components/contact/contact";
 
 const SpiritualDevelopment = () => (
   <div className="spiritual-development">
-    <div class="text-center">
+    <div className="text-center">
       <a
         class="btn btn-success"
         type="button"
@@ -13,7 +13,7 @@ const SpiritualDevelopment = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Spiritual Development Blog
+        Character Development Articles
       </a>
     </div>
     <Purpose />
@@ -29,7 +29,7 @@ const SpiritualDevelopment = () => (
           blog
         </a>
       </span>{" "}
-      contains personal spiritual experiences and inspirational articles that
+      contains personal character development experiences and inspirational articles that
       may be of interest to truth seekers.
       <div className="bolded">
         Your thoughts, comments, and insights are welcomed.
