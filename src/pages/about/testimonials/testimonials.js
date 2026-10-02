@@ -5,7 +5,10 @@ import Carousel from "../../../components/ui/carousel/carousel";
 import Person from "./person/person";
 
 const Testimonials = () => (
-  <div className="testimonials text-center">
+  <section className="testimonials">
+    <div className="testimonials-heading">
+      <h2>Professional Endorsements</h2>
+    </div>
     <Carousel ariaLabel="Professional endorsements">
       <Carousel.Item>
         <Person
@@ -96,7 +99,7 @@ const Testimonials = () => (
         />
       </Carousel.Item>
     </Carousel>
-  </div>
+  </section>
 );
 
 Testimonials.propTypes = {};

@@ -13,8 +13,8 @@ const StrategyTam = () => (
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h2>T</h2>
-                  <h5>arget</h5>
+                  <span className="tam-letter">T</span>
+                  <span className="tam-word">Target</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -22,7 +22,11 @@ const StrategyTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/strategy-target.webp"
-                        alt="tam-principle"
+                        alt="A clearly defined target guiding focused action"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -60,8 +64,8 @@ const StrategyTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h2 className="A">A</h2>
-                  <h5>lign</h5>
+                  <span className="tam-letter">A</span>
+                  <span className="tam-word">Align</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -69,7 +73,11 @@ const StrategyTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/strategy-align.webp"
-                        alt="tam-principle"
+                        alt="People and resources aligning around a shared direction"
+                        width="1400"
+                        height="788"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -110,8 +118,8 @@ const StrategyTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h2 className="M">M</h2>
-                  <h5>anage</h5>
+                  <span className="tam-letter">M</span>
+                  <span className="tam-word">Manage</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -119,7 +127,11 @@ const StrategyTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/strategy-manage.webp"
-                        alt="tam-principle"
+                        alt="A leader managing progress toward a goal"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -146,7 +158,11 @@ const StrategyTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/strategy-team.webp"
-                        alt="tam-principle"
+                        alt="A team coordinating work and accountability"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">

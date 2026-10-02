@@ -5,7 +5,7 @@ const Purpose = () => (
   <div className="purpose">
     <section className="purpose-section purpose-section-media">
       <div className="purpose-image-wrap">
-        <img src="images/character-life.webp" className="img-fluid visual-asset" alt="A family life journey representing character and relationships" />
+        <img src="images/character-life.webp" className="img-fluid visual-asset" alt="A family life journey representing character and relationships" width="1400" height="700" loading="lazy" decoding="async" />
       </div>
       <div className="purpose-copy">
         <p>
@@ -39,7 +39,7 @@ const Purpose = () => (
         </p>
       </div>
       <div className="purpose-image-wrap">
-        <img src="images/character-values.webp" className="img-fluid visual-asset" alt="Reflection and daily choices shaping character" />
+        <img src="images/character-values.webp" className="img-fluid visual-asset" alt="Reflection and daily choices shaping character" width="1400" height="700" loading="lazy" decoding="async" />
       </div>
     </section>
     <p className="purpose-reflection">

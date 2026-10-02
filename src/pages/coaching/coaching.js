@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./coaching.css";
+import "../../components/tam-principle/tam-principle.css";
 import Contact from "../../components/contact/contact";
 
 import StrategyTam from "../../components/tam-principle/strategy-tam/strategy-tam";
@@ -10,10 +11,9 @@ import TrainingTam from "../../components/tam-principle/training-tam/training-ta
 const Coaching = () => (
   <div className="coaching page-shell">
     <header className="coaching-intro">
-      <div>
-        <p className="section-eyebrow">Coaching</p>
-        <h1>Principles in practice</h1>
-        <div className="coaching-lede">
+      <h1>Coaching</h1>
+      <p className="page-deck">Principles in practice</p>
+      <div className="coaching-lede">
           By working in the trenches as a problem solver with his clients in
           diverse settings, Tom saw{" "}
           <span className="bolded">
@@ -26,15 +26,13 @@ const Coaching = () => (
             areas of focus for both businesses and individuals
           </span>{" "}
           for his consulting and coaching clients.
-        </div>
       </div>
       <div className="coaching-contact"><Contact /></div>
     </header>
     <section className="principles-section">
       <div className="section-heading">
-        <p className="section-eyebrow">The TAM framework</p>
-        <h2>TAM Principles</h2>
-        <p>Three connected disciplines for solving problems with clarity, resilience, and action.</p>
+        <h2>The TAM Framework</h2>
+        <p>Three connected disciplines for solving problems with clarity, resilience, and action. Select a principle to explore it.</p>
       </div>
       <div className="principles-stack">
         <StrategyTam />

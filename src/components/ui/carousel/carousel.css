@@ -4,7 +4,6 @@
 }
 
 .quote-carousel-stage {
-  min-height: 18rem;
   display: grid;
   align-items: center;
 }
@@ -20,14 +19,14 @@
 }
 
 .quote-carousel-controls button {
-  display: grid;
-  width: 2.4rem;
-  height: 2.4rem;
-  place-items: center;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.85rem;
   border: 1px solid var(--line);
-  border-radius: 50%;
+  border-radius: 0.7rem;
   background: white;
   color: var(--teal);
+  font: inherit;
+  font-weight: 700;
   cursor: pointer;
   transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
 }

@@ -21,14 +21,14 @@ const Carousel = ({ children, ariaLabel = "Carousel" }) => {
     >
       <div className="quote-carousel-stage">{items[activeIndex]}</div>
       <div className="quote-carousel-controls">
-        <button type="button" onClick={showPrevious} aria-label="Previous endorsement">
-          ←
+        <button type="button" onClick={showPrevious}>
+          Previous
         </button>
         <span aria-live="polite">
           {activeIndex + 1} / {items.length}
         </span>
-        <button type="button" onClick={showNext} aria-label="Next endorsement">
-          →
+        <button type="button" onClick={showNext}>
+          Next
         </button>
       </div>
     </div>

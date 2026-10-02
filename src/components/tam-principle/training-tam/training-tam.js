@@ -13,8 +13,8 @@ const TrainingTam = () => (
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h2>T</h2>
-                  <h5>each</h5>
+                  <span className="tam-letter">T</span>
+                  <span className="tam-word">Teach</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -22,7 +22,11 @@ const TrainingTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/training-teach.webp"
-                        alt="tam-principle"
+                        alt="A mentor teaching time-tested principles"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4">
@@ -77,8 +81,8 @@ const TrainingTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h2 className="A">A</h2>
-                  <h5>pply</h5>
+                  <span className="tam-letter">A</span>
+                  <span className="tam-word">Apply</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -86,7 +90,11 @@ const TrainingTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/training-apply.webp"
-                        alt="tam-principle"
+                        alt="A learner applying principles through purposeful action"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4">
@@ -139,8 +147,8 @@ const TrainingTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h2 className="M">M</h2>
-                  <h5>odel Behaviors</h5>
+                  <span className="tam-letter">M</span>
+                  <span className="tam-word">Model Behaviors</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -148,7 +156,11 @@ const TrainingTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/training-model.webp"
-                        alt="tam-principle"
+                        alt="A leader modeling the behaviors being taught"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">

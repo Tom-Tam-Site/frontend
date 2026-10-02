@@ -1,11 +1,15 @@
 .testimonials {
-  padding: 1rem;
-  border: solid 1px var(--line);
+  margin-top: 4rem;
+  padding: clamp(1rem, 4vw, 2.25rem);
   border-radius: 1rem;
   background: white;
   box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
 }
 
-.person {
-  padding: 1rem;
+.testimonials-heading {
+  margin-bottom: 1rem;
+}
+
+.testimonials-heading h2 {
+  margin: 0;
 }

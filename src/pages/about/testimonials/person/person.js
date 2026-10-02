@@ -3,25 +3,22 @@ import React from "react";
 import "./person.css";
 
 const Person = (props) => (
-  <div className="person">
-    <div className=" text-container">
-      <p className="testimonial-text">{props.testimony}</p>
-    </div>
-
-    <div className="person row">
-      <div className="">
-        <img
-          className="testimonials-picture profile visual-asset"
-          src={props.img}
-          alt={props.name}
-        />
-      </div>
-      <div className="mb-3">
-        <div className="bolded name">{props.name}</div>
+  <figure className="person">
+    <div className="person-identity">
+      <img
+        className="testimonials-picture"
+        src={props.img}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        <div className="name">{props.name}</div>
         <div className="position">{props.position}</div>
-      </div>
+      </figcaption>
     </div>
-  </div>
+    <blockquote className="testimonial-text">{props.testimony}</blockquote>
+  </figure>
 );
 
 Person.propTypes = {};

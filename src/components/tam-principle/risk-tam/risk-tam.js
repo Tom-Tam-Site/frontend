@@ -13,8 +13,8 @@ const RiskTam = () => (
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h2>T</h2>
-                  <h5>ransfer Risk</h5>
+                  <span className="tam-letter">T</span>
+                  <span className="tam-word">Transfer Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -43,7 +43,11 @@ const RiskTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/risk-transfer.webp"
-                        alt="tam-principle"
+                        alt="Risk being transferred through appropriate protection"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                   </div>
@@ -75,7 +79,11 @@ const RiskTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/risk-control.webp"
-                        alt="tam-principle"
+                        alt="Controls reducing exposure to identified risks"
+                        width="1400"
+                        height="622"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                   </div>
@@ -83,8 +91,8 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h2 className="A">A</h2>
-                  <h5>ccept Risk</h5>
+                  <span className="tam-letter">A</span>
+                  <span className="tam-word">Accept Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -92,7 +100,11 @@ const RiskTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/risk-accept.webp"
-                        alt="tam-principle Designed by pch.vector / Freepik"
+                        alt="A measured decision to accept a manageable risk"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -128,8 +140,8 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h2 className="M">M</h2>
-                  <h5>itigate Risk</h5>
+                  <span className="tam-letter">M</span>
+                  <span className="tam-word">Mitigate Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -137,7 +149,11 @@ const RiskTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/risk-mitigate.webp"
-                        alt="tam-principle"
+                        alt="Actions mitigating the likelihood and impact of risk"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -183,7 +199,11 @@ const RiskTam = () => (
                       <img
                         className="img-fluid"
                         src="images/tam-principles/risk-control.webp"
-                        alt="tam-principle"
+                        alt="Ongoing monitoring keeping risk controls effective"
+                        width="1400"
+                        height="622"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">

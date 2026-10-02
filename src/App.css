@@ -72,7 +72,7 @@ button:focus-visible,
 }
 
 .page-shell {
-  max-width: 78ch;
+  width: min(100%, 70rem);
   margin: 0 auto;
 }
 
@@ -308,13 +308,27 @@ button:focus-visible,
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
+  html {
+    scroll-behavior: auto;
   }
 
+  .visual-asset,
+  .principle img {
+    animation: none;
+    transition: none;
+  }
+
+  .button,
+  .btn,
+  .nav-link::after,
+  .accordion-icon,
+  .quote-carousel-controls button {
+    transition: none;
+  }
+
+  .button:hover,
+  .btn:hover,
+  .quote-carousel-controls button:hover,
   .visual-asset:hover,
   .principle:hover img {
     transform: none;

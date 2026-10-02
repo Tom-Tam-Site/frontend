@@ -19,8 +19,8 @@ const Contact = () => {
       </button>
       <div className={`contact-details${open ? " is-open" : ""}`} id="collapseContact" hidden={!open}>
         <div className="contact-links">
-          <a href="mailto:ttktam@gmail.com">✉️ ttktam@gmail.com</a>
-          <a href="tel:+7024286216"> 📞 (702) 428-6216</a>
+          <a href="mailto:ttktam@gmail.com"><span>Email</span><strong>ttktam@gmail.com</strong></a>
+          <a href="tel:+17024286216"><span>Phone</span><strong>(702) 428-6216</strong></a>
         </div>
       </div>
     </div>

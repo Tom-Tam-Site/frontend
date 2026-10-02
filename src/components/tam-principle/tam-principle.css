@@ -2,11 +2,32 @@
 }
 
 .principle {
+  width: 100%;
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 1.75rem);
   border: 1px solid var(--line);
   border-radius: 1rem;
   margin-top: 1rem;
   background: white;
-  box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
+}
+
+.strategy-tam,
+.risk-tam,
+.training-tam,
+.tam-principle,
+.tam-principle > div,
+.card-body {
+  width: 100%;
+  min-width: 0;
+}
+
+.tam-principle.row {
+  display: block;
+}
+
+.card-title {
+  margin: 0;
+  text-align: left;
 }
 
 .principle-img {
@@ -21,20 +42,8 @@
   }
 }
 
-.tam-principle h4 {
-  font-size: 1.1rem;
-}
-
 .tam-principle .paragraph {
   text-align: left;
-}
-
-.A {
-  margin-right: 0.2rem;
-}
-
-.M {
-  margin-right: 0.1rem;
 }
 
 .principles-heading {

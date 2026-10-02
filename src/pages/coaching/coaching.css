@@ -1,8 +1,5 @@
 .coaching-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 2rem;
-  align-items: end;
+  max-width: 78ch;
   padding: 2rem 0 3.5rem;
   border-bottom: 1px solid var(--line);
 }
@@ -15,15 +12,11 @@
 
 .coaching-lede {
   max-width: 75ch;
-  padding: 1.25rem 1.5rem;
-  border-left: 4px solid var(--gold);
-  border-radius: 0 0.9rem 0.9rem 0;
-  background: white;
-  box-shadow: 0 10px 24px rgba(23, 52, 71, 0.06);
+  font-size: 1.08rem;
 }
 
 .coaching-contact {
-  white-space: nowrap;
+  margin-top: 1.25rem;
 }
 
 .principles-section {
@@ -43,18 +36,22 @@
   color: var(--muted-ink);
 }
 
+.page-deck {
+  margin: -0.65rem 0 1.25rem;
+  color: var(--teal-dark);
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.65rem);
+  font-weight: 700;
+}
+
 .principles-stack {
   display: grid;
-  gap: 1.25rem;
+  gap: 2rem;
+  width: 100%;
 }
 
 @media (max-width: 760px) {
   .coaching-intro {
-    grid-template-columns: 1fr;
     padding-top: 1rem;
-  }
-
-  .coaching-contact {
-    white-space: normal;
   }
 }

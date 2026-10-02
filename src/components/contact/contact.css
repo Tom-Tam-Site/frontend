@@ -9,7 +9,6 @@
   border: 1px solid var(--line);
   border-radius: 0.85rem;
   background: white;
-  box-shadow: 0 8px 22px rgba(23, 52, 71, 0.06);
 }
 
 .contact-links {
@@ -18,9 +17,19 @@
 }
 
 .contact-links a {
-  padding: 0.4rem 0.5rem;
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.55rem 0.65rem;
   color: var(--teal);
   text-decoration: none;
+}
+
+.contact-links span {
+  color: var(--muted-ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .contact-links a:hover {

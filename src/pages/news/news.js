@@ -6,7 +6,6 @@ import Contact from "../../components/contact/contact";
 const News = () => (
   <div className="news page-shell">
     <header className="page-hero">
-      <p className="section-eyebrow">Insights</p>
       <h1>Economic and Political Articles</h1>
       <p className="page-hero-lede">
         Fact-based commentary for understanding the forces that shape our
@@ -28,6 +27,10 @@ const News = () => (
           className="news-image visual-asset"
           src="images/news/economic-editorial.webp"
           alt="Editorial illustration of global economic and civic forces"
+          width="1400"
+          height="700"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="insights-copy">
@@ -66,7 +69,7 @@ const News = () => (
         </p>
       </div>
       <div className="insights-image-wrap">
-        <img src="images/news/insights-secondary.webp" className="news-image visual-asset" alt="Editorial illustration of evidence-based public analysis" />
+        <img src="images/news/insights-secondary.webp" className="news-image visual-asset" alt="Editorial illustration of evidence-based public analysis" width="1400" height="700" loading="lazy" decoding="async" />
       </div>
     </section>
 

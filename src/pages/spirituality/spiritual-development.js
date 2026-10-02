@@ -6,7 +6,6 @@ import Contact from "../../components/contact/contact";
 const SpiritualDevelopment = () => (
   <div className="spiritual-development character-page page-shell">
     <header className="page-hero">
-      <p className="section-eyebrow">Character Development</p>
       <h1>Character Development Articles</h1>
       <p className="page-hero-lede">
         Reflections on the principles, relationships, and daily choices that
