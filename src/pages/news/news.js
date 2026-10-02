@@ -21,8 +21,8 @@ const News = () => (
       <div className="text-center principle-img col-lg">
         <img
           className="img-fluid news-image visual-asset"
-          src="images/news/economic.png"
-          alt="tam-principle"
+          src="images/news/economic-editorial.webp"
+          alt="Editorial illustration of global economic and civic forces"
         />
       </div>
       <div className=" p-2 col-lg">
@@ -59,7 +59,7 @@ const News = () => (
         .
       </div>
       <div className="col-lg">
-        <img src="images/news/news2.png" className="img-fluid news-image visual-asset" alt="News and analysis" />
+        <img src="images/news/insights-secondary.webp" className="img-fluid news-image visual-asset" alt="Editorial illustration of evidence-based public analysis" />
       </div>
     </div>
 

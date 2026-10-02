@@ -5,7 +5,7 @@ const Purpose = () => (
   <div className="purpose">
     <div className="row pt-5">
       <div className="col-lg">
-        <img src="images/spiritual/baby2.png" className="img-fluid visual-asset" alt="A child representing the beginning of life" />
+        <img src="images/character-life.webp" className="img-fluid visual-asset" alt="A family life journey representing character and relationships" />
       </div>
       <div className="col-lg pt-5">
         <p className="pt-3 paragraph">
@@ -39,7 +39,7 @@ const Purpose = () => (
         </p>
       </div>
       <div className="col-lg">
-        <img src="images/spiritual/family.png" className="img-fluid visual-asset" alt="A family representing enduring relationships" />
+        <img src="images/character-values.webp" className="img-fluid visual-asset" alt="Reflection and daily choices shaping character" />
       </div>
     </div>
     <div className="paragraph">

@@ -71,6 +71,52 @@ button:focus-visible,
   padding: 2.5rem 1.25rem 4rem;
 }
 
+.site-shell {
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.col,
+.col-lg {
+  min-width: 0;
+  flex: 1 1 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.d-flex { display: flex; }
+.align-items-center { align-items: center; }
+.justify-content-center { justify-content: center; }
+.text-center { text-align: center; }
+.text-start { text-align: left; }
+.m-2 { margin: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mt-1 { margin-top: 0.25rem; }
+.mt-4 { margin-top: 1.5rem; }
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 1rem; }
+.pt-3 { padding-top: 1rem; }
+.pt-4 { padding-top: 1.5rem; }
+.pt-5 { padding-top: 3rem; }
+.py-3 { padding-top: 1rem; padding-bottom: 1rem; }
+
 .parent-component > * {
   margin: 1rem;
 }
@@ -91,8 +137,16 @@ button:focus-visible,
   border-radius: 0.9rem;
 }
 
+.button,
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
   border-radius: 999px !important;
+  background: transparent;
+  color: white;
+  cursor: pointer;
   font-family: "DM Sans", Arial, sans-serif !important;
   font-size: 0.95rem !important;
   font-weight: 700 !important;
@@ -101,18 +155,32 @@ button:focus-visible,
   transition: background-color 160ms ease, transform 160ms ease;
 }
 
+.button:hover,
 .btn:hover {
   transform: translateY(-1px);
 }
 
+.button-primary,
 .btn-success {
   background-color: var(--teal) !important;
   border-color: var(--teal) !important;
 }
 
+.button-primary:hover,
 .btn-success:hover {
   background-color: var(--teal-dark) !important;
   border-color: var(--teal-dark) !important;
+}
+
+.button-secondary {
+  background: white;
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.button-secondary:hover {
+  background: var(--surface);
+  color: var(--teal-dark);
 }
 
 .btn-warning {
@@ -222,5 +290,11 @@ button:focus-visible,
 
   .parent-component > * {
     margin: 0.75rem 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .col-lg {
+    flex-basis: 0;
   }
 }

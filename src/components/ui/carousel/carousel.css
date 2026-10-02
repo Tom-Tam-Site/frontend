@@ -1,0 +1,39 @@
+.quote-carousel {
+  display: grid;
+  gap: 1rem;
+}
+
+.quote-carousel-stage {
+  min-height: 18rem;
+  display: grid;
+  align-items: center;
+}
+
+.quote-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--muted-ink);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.quote-carousel-controls button {
+  display: grid;
+  width: 2.4rem;
+  height: 2.4rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: white;
+  color: var(--teal);
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.quote-carousel-controls button:hover {
+  background: var(--teal);
+  color: white;
+  transform: translateY(-1px);
+}

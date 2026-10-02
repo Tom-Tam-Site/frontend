@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./strategy-tam.css";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from "../../ui/accordion/accordion";
 
 const StrategyTam = () => (
   <div className="strategy-tam">
@@ -21,7 +21,7 @@ const StrategyTam = () => (
                     <div className="col-lg text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/target.png"
+                        src="images/tam-principles/strategy-target.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -68,7 +68,7 @@ const StrategyTam = () => (
                     <div className="text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/align.png"
+                        src="images/tam-principles/strategy-align.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -118,7 +118,7 @@ const StrategyTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/success.png"
+                        src="images/tam-principles/strategy-manage.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -145,7 +145,7 @@ const StrategyTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/team.png"
+                        src="images/tam-principles/strategy-team.webp"
                         alt="tam-principle"
                       />
                     </div>

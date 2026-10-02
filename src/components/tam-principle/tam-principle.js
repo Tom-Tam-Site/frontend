@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 import "./tam-principle.css";
 
@@ -7,20 +8,22 @@ import RiskTam from "./risk-tam/risk-tam";
 import TrainingTam from "./training-tam/training-tam";
 
 const TamPrinciple = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <button
         className="btn btn-warning btn-principle"
         type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight"
+        aria-expanded={open}
         aria-controls="offcanvasRight"
+        onClick={() => setOpen(!open)}
       >
         See TAM Principles
       </button>
       <div
         className="offcanvas offcanvas-end size-90"
-        tabIndex="-1"
+        hidden={!open}
         id="offcanvasRight"
         aria-labelledby="offcanvasRightLabel"
       >
@@ -32,8 +35,8 @@ const TamPrinciple = () => {
           <button
             type="button"
             className="btn-close"
-            data-bs-dismiss="offcanvas"
             aria-label="Close"
+            onClick={() => setOpen(false)}
           ></button>
         </div>
         <div className="offcanvas-body">

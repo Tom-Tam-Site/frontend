@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./risk-tam.css";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from "../../ui/accordion/accordion";
 
 const RiskTam = () => (
   <div className="risk-tam">
@@ -42,7 +42,7 @@ const RiskTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/four.png"
+                        src="images/tam-principles/risk-transfer.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -74,7 +74,7 @@ const RiskTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/destruction.png"
+                        src="images/tam-principles/risk-control.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -91,7 +91,7 @@ const RiskTam = () => (
                     <div className="text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/family.png"
+                        src="images/tam-principles/risk-accept.webp"
                         alt="tam-principle Designed by pch.vector / Freepik"
                       />
                     </div>
@@ -136,7 +136,7 @@ const RiskTam = () => (
                     <div className=" text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/mitigate-1.png"
+                        src="images/tam-principles/risk-mitigate.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -182,7 +182,7 @@ const RiskTam = () => (
                     <div className="text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/mitigate-2.png"
+                        src="images/tam-principles/risk-control.webp"
                         alt="tam-principle"
                       />
                     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./training-tam.css";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from "../../ui/accordion/accordion";
 
 const TrainingTam = () => (
   <div className="training-tam">
@@ -21,7 +21,7 @@ const TrainingTam = () => (
                     <div className=" text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/training/teach.png"
+                        src="images/tam-principles/training-teach.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -85,7 +85,7 @@ const TrainingTam = () => (
                     <div className="text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/training/apply.png"
+                        src="images/tam-principles/training-apply.webp"
                         alt="tam-principle"
                       />
                     </div>
@@ -147,7 +147,7 @@ const TrainingTam = () => (
                     <div className=" text-center principle-img col-lg">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/training/model.png"
+                        src="images/tam-principles/training-model.webp"
                         alt="tam-principle"
                       />
                     </div>

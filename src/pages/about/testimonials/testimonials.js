@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./testimonials.css";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "../../../components/ui/carousel/carousel";
 import Person from "./person/person";
 
 const Testimonials = () => (

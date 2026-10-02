@@ -1,16 +1,29 @@
-.Contact {
-}
-
 .contact-btn {
   margin-bottom: 1rem;
 }
 
-.parent > * {
-  margin: 0.4rem;
-  color: green;
+.contact-details {
+  width: min(100%, 24rem);
+  margin: 0 auto 1rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: white;
+  box-shadow: 0 8px 22px rgba(23, 52, 71, 0.06);
+}
+
+.contact-links {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.contact-links a {
+  padding: 0.4rem 0.5rem;
+  color: var(--teal);
   text-decoration: none;
 }
 
-.parent > *:hover {
-  color: black;
+.contact-links a:hover {
+  color: var(--teal-dark);
+  text-decoration: underline;
 }
