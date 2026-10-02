@@ -11,7 +11,7 @@ const Person = (props) => (
     <div className="person row">
       <div className="">
         <img
-          className="testimonials-picture profile"
+          className="testimonials-picture profile visual-asset"
           src={props.img}
           alt={props.name}
         />

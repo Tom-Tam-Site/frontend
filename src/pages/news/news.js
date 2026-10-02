@@ -20,7 +20,7 @@ const News = () => (
     <div className="row p-2">
       <div className="text-center principle-img col-lg">
         <img
-          className="img-fluid news-image"
+          className="img-fluid news-image visual-asset"
           src="images/news/economic.png"
           alt="tam-principle"
         />
@@ -59,7 +59,7 @@ const News = () => (
         .
       </div>
       <div className="col-lg">
-        <img src="images/news/news2.png" className="img-fluid news-image" alt="News and analysis" />
+        <img src="images/news/news2.png" className="img-fluid news-image visual-asset" alt="News and analysis" />
       </div>
     </div>
 

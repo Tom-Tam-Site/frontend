@@ -10,7 +10,7 @@ const Overview = () => (
   <div className="overview">
     <div className="text-center row">
       <div className="">
-        <img src={imgSrc} alt="profile" className="profile img-fluid" />
+        <img src={imgSrc} alt="Tom Tam" className="profile img-fluid visual-asset" />
       </div>
       <div className="col">
         <h2 className="mt-4 title">About Tom Tam</h2>

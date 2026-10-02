@@ -149,6 +149,51 @@ button:focus-visible,
   text-decoration: underline;
 }
 
+.visual-asset {
+  border-radius: 1rem;
+  box-shadow: 0 12px 28px rgba(23, 52, 71, 0.13);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.visual-asset:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 18px 34px rgba(23, 52, 71, 0.18);
+}
+
+.principle img {
+  border-radius: 1rem;
+  transition: transform 220ms ease;
+}
+
+.principle:hover img {
+  transform: scale(1.015);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .visual-asset {
+    animation: image-rise 700ms ease both;
+  }
+}
+
+@keyframes image-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .visual-asset:hover,
+  .principle:hover img {
+    transform: none;
+  }
+}
+
 @media (max-width: 768px) {
   .App {
     padding: 1.5rem 0.75rem 3rem;
