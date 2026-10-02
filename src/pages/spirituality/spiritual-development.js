@@ -4,20 +4,25 @@ import "./spiritual-development.css";
 import Contact from "../../components/contact/contact";
 
 const SpiritualDevelopment = () => (
-  <div className="spiritual-development">
-    <div className="text-center">
+  <div className="spiritual-development character-page page-shell">
+    <header className="page-hero">
+      <p className="section-eyebrow">Character Development</p>
+      <h1>Character Development Articles</h1>
+      <p className="page-hero-lede">
+        Reflections on the principles, relationships, and daily choices that
+        shape a life of meaning.
+      </p>
       <a
-        className="btn btn-success"
-        type="button"
+        className="button button-primary"
         href="https://ttamcoaching.blogspot.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Character Development Articles
+        Read the articles
       </a>
-    </div>
+    </header>
     <Purpose />
-    <div className="paragraph text-center bg-light p-3">
+    <section className="content-note">
       This{" "}
       <span className="bolded embedded-link">
         <a
@@ -34,8 +39,8 @@ const SpiritualDevelopment = () => (
       <div className="bolded">
         Your thoughts, comments, and insights are welcomed.
       </div>
-    </div>
-    <div className="text-center">
+    </section>
+    <div className="page-contact">
       <Contact />
     </div>
   </div>

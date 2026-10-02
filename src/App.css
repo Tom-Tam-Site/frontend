@@ -15,11 +15,11 @@ html {
 
 body,
 footer {
-  font-family: "DM Sans", Arial, sans-serif !important;
-  font-size: 1rem !important;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 1rem;
   line-height: 1.7;
-  background-color: #fbfcfc !important;
-  color: var(--ink) !important;
+  background-color: #fbfcfc;
+  color: var(--ink);
 }
 
 h1,
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Libre Baskerville", Georgia, serif !important;
+  font-family: "Libre Baskerville", Georgia, serif;
   color: var(--navy);
   line-height: 1.25;
 }
@@ -69,6 +69,44 @@ button:focus-visible,
   max-width: 1180px;
   margin: 0 auto;
   padding: 2.5rem 1.25rem 4rem;
+}
+
+.page-shell {
+  max-width: 78ch;
+  margin: 0 auto;
+}
+
+.page-hero {
+  padding: clamp(1rem, 5vw, 3.5rem) 0 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-hero h1 {
+  max-width: 18ch;
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  letter-spacing: -0.03em;
+}
+
+.page-hero-lede {
+  max-width: 58ch;
+  margin: 0 0 1.5rem;
+  color: var(--muted-ink);
+  font-size: 1.12rem;
+}
+
+.content-note {
+  max-width: 72ch;
+  margin: 3rem auto 0;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface);
+  text-align: center;
+}
+
+.content-note p {
+  margin: 0;
 }
 
 .site-shell {
@@ -143,15 +181,15 @@ button:focus-visible,
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
-  border-radius: 999px !important;
+  border-radius: 999px;
   background: transparent;
   color: white;
   cursor: pointer;
-  font-family: "DM Sans", Arial, sans-serif !important;
-  font-size: 0.95rem !important;
-  font-weight: 700 !important;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
   letter-spacing: 0.01em;
-  padding: 0.65rem 1.1rem !important;
+  padding: 0.65rem 1.1rem;
   transition: background-color 160ms ease, transform 160ms ease;
 }
 
@@ -162,14 +200,14 @@ button:focus-visible,
 
 .button-primary,
 .btn-success {
-  background-color: var(--teal) !important;
-  border-color: var(--teal) !important;
+  background-color: var(--teal);
+  border-color: var(--teal);
 }
 
 .button-primary:hover,
 .btn-success:hover {
-  background-color: var(--teal-dark) !important;
-  border-color: var(--teal-dark) !important;
+  background-color: var(--teal-dark);
+  border-color: var(--teal-dark);
 }
 
 .button-secondary {
@@ -184,9 +222,9 @@ button:focus-visible,
 }
 
 .btn-warning {
-  background-color: var(--gold) !important;
-  border-color: var(--gold) !important;
-  color: white !important;
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: white;
 }
 
 .embedded-link {
@@ -202,30 +240,30 @@ button:focus-visible,
 }
 
 .bg-light {
-  background-color: white !important;
+  background-color: white;
   border: 1px solid var(--line);
   box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
 }
 
 .accordion-item {
-  border-color: var(--line) !important;
-  border-radius: 0.7rem !important;
+  border-color: var(--line);
+  border-radius: 0.7rem;
   overflow: hidden;
 }
 
 .accordion-button {
-  color: var(--navy) !important;
+  color: var(--navy);
   font-weight: 700;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: var(--surface) !important;
-  box-shadow: none !important;
+  background-color: var(--surface);
+  box-shadow: none;
 }
 
 .accordion-button:focus {
   border-color: var(--gold);
-  box-shadow: 0 0 0 0.2rem rgba(178, 122, 46, 0.2) !important;
+  box-shadow: 0 0 0 0.2rem rgba(178, 122, 46, 0.2);
 }
 
 .vertically-centered {

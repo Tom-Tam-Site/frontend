@@ -6,8 +6,8 @@ import Person from "./person/person";
 
 const Testimonials = () => (
   <div className="testimonials text-center">
-    <Carousel variant="dark">
-      <Carousel.Item className="">
+    <Carousel ariaLabel="Professional endorsements">
+      <Carousel.Item>
         <Person
           img="images/testimonials/BrighamTomco.jpeg"
           name="Brigham Tomco"
@@ -24,7 +24,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/MarkOlson.jpeg"
           name="Mark Olson"
@@ -39,7 +39,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/KevinYu.webp"
           name="Kevin Yu"
@@ -61,7 +61,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/AngelinaBanks.jpeg"
           name="Angelina Banks"
@@ -77,7 +77,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/DavidDelSol.jpeg"
           name="David Del Sol"

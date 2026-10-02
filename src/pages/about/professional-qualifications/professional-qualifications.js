@@ -6,7 +6,6 @@ import Education from "./education/education";
 const ProfessionalQualifications = () => (
   <div className="professional-qualifications parent-component">
     <h2 className="title text-center">Professional Qualifications</h2>
-    <br></br>
     <div className="paragraph">
       Tom's diverse industry background includes banking, financial services,
       insurance, investment management, Big-Four public accounting, consulting,

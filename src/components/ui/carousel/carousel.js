@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./carousel.css";
 
-const Carousel = ({ children }) => {
+const Carousel = ({ children, ariaLabel = "Carousel" }) => {
   const items = React.Children.toArray(children);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -13,7 +13,12 @@ const Carousel = ({ children }) => {
   const showNext = () => setActiveIndex((index) => (index + 1) % items.length);
 
   return (
-    <div className="quote-carousel" aria-roledescription="carousel">
+    <div
+      className="quote-carousel"
+      role="region"
+      aria-roledescription="carousel"
+      aria-label={ariaLabel}
+    >
       <div className="quote-carousel-stage">{items[activeIndex]}</div>
       <div className="quote-carousel-controls">
         <button type="button" onClick={showPrevious} aria-label="Previous endorsement">
@@ -30,6 +35,10 @@ const Carousel = ({ children }) => {
   );
 };
 
-Carousel.Item = ({ children }) => <div className="quote-carousel-item">{children}</div>;
+Carousel.Item = ({ children }) => (
+  <div className="quote-carousel-item" role="group" aria-roledescription="slide">
+    {children}
+  </div>
+);
 
 export default Carousel;

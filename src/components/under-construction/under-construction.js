@@ -3,12 +3,10 @@ import React from "react";
 import "./under-construction.css";
 
 const UnderConstruction = () => (
-  <div className="under-construction text-center">
-    <h2>This page is under construction...</h2>
-    <br></br>
-    <img src="https://img.icons8.com/clouds/200/000000/cancel-2.png" />
-    <br></br>
-    <p>please comeback later :)</p>
+  <div className="under-construction page-shell">
+    <p className="section-eyebrow">Coming soon</p>
+    <h1>This page is under construction</h1>
+    <p>New material will be available here soon.</p>
   </div>
 );
 

@@ -7,9 +7,9 @@ const RiskTam = () => (
   <div className="risk-tam">
     <div className="tam-principle row">
       <div id="Risk Management">
-        <div class="card bg-light principle">
-          <div class="card-body">
-            <h3 class="card-title text-center">Risk Management</h3>
+        <div className="card bg-light principle">
+          <div className="card-body">
+            <h3 className="card-title text-center">Risk Management</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>

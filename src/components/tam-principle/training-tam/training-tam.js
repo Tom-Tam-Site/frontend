@@ -7,9 +7,9 @@ const TrainingTam = () => (
   <div className="training-tam">
     <div className="tam-principle row">
       <div id="Training and Learning">
-        <div class="card bg-light principle">
-          <div class="card-body">
-            <h3 class="card-title text-center">Training and Learning</h3>
+        <div className="card bg-light principle">
+          <div className="card-body">
+            <h3 className="card-title text-center">Training and Learning</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>

@@ -1,8 +1,8 @@
 .testimonials-picture {
   border-radius: 50%;
   margin: 1rem;
-  width: 12rem !important;
-  box-shadow: 5px 10px #dee2e6;
+  width: min(12rem, 45vw);
+  box-shadow: 0 10px 24px rgba(23, 52, 71, 0.14);
 }
 
 .testimonial-text {

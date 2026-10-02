@@ -4,29 +4,34 @@ import "./news.css";
 import Contact from "../../components/contact/contact";
 
 const News = () => (
-  <div className="news">
-    <div className="text-center">
+  <div className="news page-shell">
+    <header className="page-hero">
+      <p className="section-eyebrow">Insights</p>
+      <h1>Economic and Political Articles</h1>
+      <p className="page-hero-lede">
+        Fact-based commentary for understanding the forces that shape our
+        livelihoods, communities, and choices.
+      </p>
       <a
-        className="btn btn-success"
-        type="button"
+        className="button button-primary"
         href="https://tamadvisors.blogspot.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Economic and Political Articles
+        Read the articles
       </a>
-    </div>
+    </header>
 
-    <div className="row p-2">
-      <div className="text-center principle-img col-lg">
+    <section className="insights-feature">
+      <div className="insights-image-wrap">
         <img
-          className="img-fluid news-image visual-asset"
+          className="news-image visual-asset"
           src="images/news/economic-editorial.webp"
           alt="Editorial illustration of global economic and civic forces"
         />
       </div>
-      <div className=" p-2 col-lg">
-        <div className="paragraph">
+      <div className="insights-copy">
+        <p>
           <span className="bolded">
             Political and economic forces significantly impact our lives and
             livelihood
@@ -41,11 +46,12 @@ const News = () => (
           discussions because most tend to get emotional due to their upbringing
           and bias. Many do not understand economic principles and concepts
           since they have never studied or spent time to learn.
-        </div>
+        </p>
       </div>
-    </div>
-    <div className="row text-center">
-      <div className="paragraph p-1 col">
+    </section>
+    <section className="insights-secondary">
+      <div className="insights-copy">
+        <p>
         In the spirit of{" "}
         <span className="bolded">
           proclaiming truth and dispelling falsehood
@@ -57,13 +63,14 @@ const News = () => (
           to avoid being emotionally manipulated by unsupported opinions
         </span>
         .
+        </p>
       </div>
-      <div className="col-lg">
-        <img src="images/news/insights-secondary.webp" className="img-fluid news-image visual-asset" alt="Editorial illustration of evidence-based public analysis" />
+      <div className="insights-image-wrap">
+        <img src="images/news/insights-secondary.webp" className="news-image visual-asset" alt="Editorial illustration of evidence-based public analysis" />
       </div>
-    </div>
+    </section>
 
-    <div className="paragraph text-center bg-light p-3">
+    <section className="content-note">
       This{" "}
       <span className="bolded embedded-link">
         <a
@@ -80,8 +87,8 @@ const News = () => (
       <div className="bolded">
         Your thoughts, comments, and insights are welcomed.
       </div>
-    </div>
-    <div className="text-center">
+    </section>
+    <div className="page-contact">
       <Contact />
     </div>
   </div>

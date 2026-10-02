@@ -1,1 +1,50 @@
-.Purpose {}
+.purpose-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  margin: 4rem 0;
+}
+
+.purpose-section-reverse .purpose-image-wrap {
+  order: 2;
+}
+
+.purpose-image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.purpose-image-wrap img {
+  width: 100%;
+  max-width: 34rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.purpose-copy {
+  max-width: 60ch;
+  font-size: 1.05rem;
+}
+
+.purpose-copy p,
+.purpose-reflection {
+  margin: 0;
+}
+
+.purpose-reflection {
+  max-width: 72ch;
+  margin: 4rem auto 0;
+  font-size: 1.08rem;
+}
+
+@media (max-width: 720px) {
+  .purpose-section {
+    grid-template-columns: 1fr;
+    margin: 3rem 0;
+  }
+
+  .purpose-section-reverse .purpose-image-wrap {
+    order: initial;
+  }
+}

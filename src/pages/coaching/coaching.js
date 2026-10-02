@@ -8,11 +8,12 @@ import RiskTam from "../../components/tam-principle/risk-tam/risk-tam";
 import TrainingTam from "../../components/tam-principle/training-tam/training-tam";
 
 const Coaching = () => (
-  <div className="coaching">
-    <div className="row text-center">
-      <Contact />
+  <div className="coaching page-shell">
+    <header className="coaching-intro">
       <div>
-        <div className="paragraph p-3 bg-light">
+        <p className="section-eyebrow">Coaching</p>
+        <h1>Principles in practice</h1>
+        <div className="coaching-lede">
           By working in the trenches as a problem solver with his clients in
           diverse settings, Tom saw{" "}
           <span className="bolded">
@@ -27,13 +28,20 @@ const Coaching = () => (
           for his consulting and coaching clients.
         </div>
       </div>
-      <div className="text-center mt-1">
-        <h2 className="title">TAM Principles</h2>
+      <div className="coaching-contact"><Contact /></div>
+    </header>
+    <section className="principles-section">
+      <div className="section-heading">
+        <p className="section-eyebrow">The TAM framework</p>
+        <h2>TAM Principles</h2>
+        <p>Three connected disciplines for solving problems with clarity, resilience, and action.</p>
+      </div>
+      <div className="principles-stack">
         <StrategyTam />
         <RiskTam />
         <TrainingTam />
       </div>
-    </div>
+    </section>
   </div>
 );
 
