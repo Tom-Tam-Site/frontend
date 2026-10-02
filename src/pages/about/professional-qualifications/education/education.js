@@ -1,37 +1,33 @@
 import React from "react";
+import { useState } from "react";
 
 import "./education.css";
 import Institution from "./institution/institution";
 
-const Education = () => (
-  <span>
-    <a
-      className="btn btn-success btn-testimonials"
-      data-bs-toggle="collapse"
-      href="#collapseEducation"
-      role="button"
-      aria-expanded="false"
-      aria-controls="collapseEducation"
-    >
+const Education = () => {
+  const [open, setOpen] = useState(false);
+
+  return (
+  <div className="education">
+    <button className="button button-secondary btn-testimonials" type="button" aria-expanded={open} aria-controls="collapseEducation" onClick={() => setOpen(!open)}>
       See Education and Certification
-    </a>
-    <div className="collapse" id="collapseEducation">
-      <div className="card card-body text-center">
-        <div className="row">
-          <div className="col-lg">
+    </button>
+    <div className="education-details" id="collapseEducation" hidden={!open}>
+      <div className="education-grid">
+          <div>
             <Institution degree="BBA" image="/images/institutions/bba.png" />
           </div>
-          <div className="col-lg">
+          <div>
             <Institution degree="MBA" image="/images/institutions/mba.png" />
           </div>
-          <div className="col-lg">
+          <div>
             <Institution degree="CPA" image="/images/institutions/cpa.png" />
           </div>
-        </div>
       </div>
     </div>
-  </span>
-);
+  </div>
+  );
+};
 
 Education.propTypes = {};
 

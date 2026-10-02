@@ -1,24 +1,26 @@
 import React from "react";
+import { useState } from "react";
 
 import "./contact.css";
 
 const Contact = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div>
+    <div className="contact">
       <button
-        class="btn btn-warning text-light contact-btn"
+        className="button button-primary contact-btn"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapseContact"
-        aria-expanded="false"
+        aria-expanded={open}
         aria-controls="collapseContact"
+        onClick={() => setOpen(!open)}
       >
         Contact information
       </button>
-      <div class="collapse" id="collapseContact">
-        <div class="card card-body parent">
-          <a href="mailto:ttktam@gmail.com">✉️ ttktam@gmail.com</a>
-          <a href="tel:+7024286216"> 📞 (702) 428-6216</a>
+      <div className={`contact-details${open ? " is-open" : ""}`} id="collapseContact" hidden={!open}>
+        <div className="contact-links">
+          <a href="mailto:ttktam@gmail.com"><span>Email</span><strong>ttktam@gmail.com</strong></a>
+          <a href="tel:+17024286216"><span>Phone</span><strong>(702) 428-6216</strong></a>
         </div>
       </div>
     </div>

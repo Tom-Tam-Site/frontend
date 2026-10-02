@@ -1,15 +1,14 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./purpose.css";
 
 const Purpose = () => (
   <div className="purpose">
-    <div className="row pt-5">
-      <div className="col-lg">
-        <img src="images/spiritual/baby2.png" className="img-fluid" />
+    <section className="purpose-section purpose-section-media">
+      <div className="purpose-image-wrap">
+        <img src="images/character-life.webp" className="img-fluid visual-asset" alt="A family life journey representing character and relationships" width="1400" height="700" loading="lazy" decoding="async" />
       </div>
-      <div className="col-lg pt-5">
-        <p className="pt-3 paragraph">
+      <div className="purpose-copy">
+        <p>
           <span className="bolded">
             Each of us is born into this world without any worldly possession.
             Yet, there are two things we have at birth that make us unique –{" "}
@@ -22,10 +21,10 @@ const Purpose = () => (
           parents that gave us our physical bodies.
         </p>
       </div>
-    </div>
-    <div className="row p-3">
-      <div className="col-lg pt-5">
-        <p className="paragraph">
+    </section>
+    <section className="purpose-section purpose-section-reverse">
+      <div className="purpose-copy">
+        <p>
           <span className="bolded">
             When we die, after a relatively short sojourn on earth, we also
             leave this earth without any worldly possessions. There are two
@@ -35,19 +34,19 @@ const Purpose = () => (
             </span>
           </span>
           . At our death, as our spirit leaves our body, those enduring
-          relationships have lasting bonds and spiritual imprint in our
+          relationships have lasting bonds and value imprint in our
           character, as well as significance to those whose lives we touched.
         </p>
       </div>
-      <div className="col-lg">
-        <img src="images/spiritual/family.png" className="img-fluid" />
+      <div className="purpose-image-wrap">
+        <img src="images/character-values.webp" className="img-fluid visual-asset" alt="Reflection and daily choices shaping character" width="1400" height="700" loading="lazy" decoding="async" />
       </div>
-    </div>
-    <div className="paragraph">
+    </section>
+    <p className="purpose-reflection">
       <span className="bolded">Hopefully</span>, during the years between birth
       and death,{" "}
       <span className="bolded">
-        our character will have grown by living time-tested spiritual principles
+        our character will have grown by living time-tested moral principles
         and values
       </span>{" "}
       that have molded our character as internalized by our spirit.{" "}
@@ -55,7 +54,7 @@ const Purpose = () => (
         Our relationships will have increased and multiplied as we serve others
       </span>{" "}
       within our ever-expanding sphere of influence.
-    </div>
+    </p>
   </div>
 );
 

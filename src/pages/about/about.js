@@ -5,7 +5,7 @@ import ProfessionalQualifications from "./professional-qualifications/profession
 import Testimonials from "./testimonials/testimonials";
 
 const About = () => (
-  <div className="about parent-component">
+  <div className="about page-shell">
     <Overview />
     <ProfessionalQualifications />
     <Testimonials />

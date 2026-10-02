@@ -1,52 +1,49 @@
-.TamPrinciple {
-}
-
-.principle-card {
-  width: 18rem;
-}
-
 .fletter {
-  font-size: larger !important;
-  font-family: "Lobster Two", cursive !important;
 }
 
 .principle {
-  border: dashed 1px #ccc;
-  border-radius: 5%;
+  width: 100%;
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
   margin-top: 1rem;
+  background: white;
+}
+
+.strategy-tam,
+.risk-tam,
+.training-tam,
+.tam-principle,
+.tam-principle > div,
+.card-body {
+  width: 100%;
+  min-width: 0;
+}
+
+.tam-principle.row {
+  display: block;
+}
+
+.card-title {
+  margin: 0;
+  text-align: left;
 }
 
 .principle-img {
-  width: 1rem;
+  flex: 0 1 34%;
+  width: auto;
   padding: 1rem;
 }
 
-.principle-title {
-  font-size: 10rem !important;
+@media (max-width: 760px) {
+  .principle-img {
+    flex-basis: 100%;
+  }
 }
 
-h4 {
-  font-size: 1.4rem !important;
-}
-
-img {
-  border-radius: 10%;
-}
-
-.size-90 {
-  width: 90% !important;
-}
-
-.paragraph {
-  text-align: start !important;
-}
-
-.A {
-  margin-right: 0.2rem;
-}
-
-.M {
-  margin-right: 0.1rem;
+.tam-principle .paragraph {
+  text-align: left;
 }
 
 .principles-heading {

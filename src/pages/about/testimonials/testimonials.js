@@ -1,13 +1,16 @@
 import React from "react";
 
 import "./testimonials.css";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "../../../components/ui/carousel/carousel";
 import Person from "./person/person";
 
 const Testimonials = () => (
-  <div className="testimonials text-center">
-    <Carousel variant="dark">
-      <Carousel.Item className="">
+  <section className="testimonials">
+    <div className="testimonials-heading">
+      <h2>Professional Endorsements</h2>
+    </div>
+    <Carousel ariaLabel="Professional endorsements">
+      <Carousel.Item>
         <Person
           img="images/testimonials/BrighamTomco.jpeg"
           name="Brigham Tomco"
@@ -24,7 +27,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/MarkOlson.jpeg"
           name="Mark Olson"
@@ -39,7 +42,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/KevinYu.webp"
           name="Kevin Yu"
@@ -61,7 +64,7 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/AngelinaBanks.jpeg"
           name="Angelina Banks"
@@ -77,26 +80,26 @@ const Testimonials = () => (
           </div>
         />
       </Carousel.Item>
-      <Carousel.Item className="">
+      <Carousel.Item>
         <Person
           img="images/testimonials/DavidDelSol.jpeg"
           name="David Del Sol"
-          position="Software Engineer, Gap Inc"
+          position="Lead Staff AI, Data and ML Platform Engineer, Datavant"
           testimony=<div>
             <div>
-              Tom Tam is an exceptional servant leader.
+              "Tom Tam is an exceptional servant leader.
               <div className="bolded">
                 His mentorship, commitment, and principle-based guidance for
                 self-improvement
               </div>{" "}
               have had a profound impact on my personal growth and professional
-              success.
+              success."
             </div>
           </div>
         />
       </Carousel.Item>
     </Carousel>
-  </div>
+  </section>
 );
 
 Testimonials.propTypes = {};

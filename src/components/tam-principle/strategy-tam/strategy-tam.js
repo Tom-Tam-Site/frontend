@@ -1,28 +1,32 @@
 import React from "react";
 
 import "./strategy-tam.css";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from "../../ui/accordion/accordion";
 
 const StrategyTam = () => (
   <div className="strategy-tam">
     <div className="tam-principle row">
       <div id="Strategy and Goal Execution">
-        <div class="card bg-light principle">
-          <div class="card-body">
-            <h3 class="card-title text-center">Strategy and Goal Execution</h3>
+        <div className="card bg-light principle">
+          <div className="card-body">
+            <h3 className="card-title text-center">Strategy and Goal Execution</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h2>T</h2>
-                  <h5>arget</h5>
+                  <span className="tam-letter">T</span>
+                  <span className="tam-word">Target</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
                     <div className="col-lg text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/target.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/strategy-target.webp"
+                        alt="A clearly defined target guiding focused action"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -60,16 +64,20 @@ const StrategyTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h2 className="A">A</h2>
-                  <h5>lign</h5>
+                  <span className="tam-letter">A</span>
+                  <span className="tam-word">Align</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
                     <div className="text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/align.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/strategy-align.webp"
+                        alt="People and resources aligning around a shared direction"
+                        width="1400"
+                        height="788"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -110,16 +118,20 @@ const StrategyTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h2 className="M">M</h2>
-                  <h5>anage</h5>
+                  <span className="tam-letter">M</span>
+                  <span className="tam-word">Manage</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/success.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/strategy-manage.webp"
+                        alt="A leader managing progress toward a goal"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -145,8 +157,12 @@ const StrategyTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/strategy/team.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/strategy-team.webp"
+                        alt="A team coordinating work and accountability"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
