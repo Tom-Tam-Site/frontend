@@ -1,28 +1,74 @@
-h1,
-h2,
-.emphasis {
-  font-family: "Lobster Two", cursive !important;
+:root {
+  --ink: #1f2d35;
+  --muted-ink: #53636a;
+  --navy: #173447;
+  --teal: #176b70;
+  --teal-dark: #105458;
+  --gold: #b27a2e;
+  --surface: #f3f6f6;
+  --line: #d9e2e2;
 }
 
-h3,
-h5,
-h4,
-h6,
-.bolded {
-  font-family: "Noto Serif Telugu", serif;
-  margin-bottom: 0 !important;
+html {
+  scroll-behavior: smooth;
 }
 
 body,
 footer {
-  font-family: "Raleway", sans-serif !important;
-  font-size: 1.35rem !important;
-  background-color: white !important;
-  color: black !important;
+  font-family: "DM Sans", Arial, sans-serif !important;
+  font-size: 1rem !important;
+  line-height: 1.7;
+  background-color: #fbfcfc !important;
+  color: var(--ink) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: var(--navy);
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+}
+
+h3 {
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+a {
+  color: var(--teal);
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--teal-dark);
+}
+
+a:focus-visible,
+button:focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
 }
 
 .App {
-  margin: 2.5rem;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
 }
 
 .parent-component > * {
@@ -30,29 +76,49 @@ footer {
 }
 
 .bolded-inline {
-  font-family: "Noto Serif Telugu", serif;
+  font-weight: 700;
   padding-right: 0.5rem;
 }
 
 .bolded-inline-surrounded {
-  font-family: "Noto Serif Telugu", serif;
+  font-weight: 700;
   padding: 0.5rem;
 }
 
 .paragraph {
-  margin: 0.7rem;
-  border-radius: 5%;
+  max-width: 78ch;
+  margin: 1.25rem auto;
+  border-radius: 0.9rem;
 }
 
 .btn {
-  /* padding-bottom: 0px !important; */
-  margin-bottom: 0px !important;
+  border-radius: 999px !important;
+  font-family: "DM Sans", Arial, sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em;
+  padding: 0.65rem 1.1rem !important;
+  transition: background-color 160ms ease, transform 160ms ease;
 }
 
-.btn:hover,
-.title {
-  text-decoration: underline;
-  border-radius: 10%;
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-success {
+  background-color: var(--teal) !important;
+  border-color: var(--teal) !important;
+}
+
+.btn-success:hover {
+  background-color: var(--teal-dark) !important;
+  border-color: var(--teal-dark) !important;
+}
+
+.btn-warning {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: white !important;
 }
 
 .embedded-link {
@@ -63,6 +129,16 @@ footer {
   text-decoration: underline;
 }
 
+.title {
+  margin-bottom: 1rem;
+}
+
+.bg-light {
+  background-color: white !important;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
+}
+
 .vertically-centered {
   padding: 150px 0;
 
@@ -71,4 +147,14 @@ footer {
 
 .underlined {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1.5rem 0.75rem 3rem;
+  }
+
+  .parent-component > * {
+    margin: 0.75rem 0;
+  }
 }

@@ -2,18 +2,18 @@
 }
 
 .profile {
-  border-radius: 20%;
+  border-radius: 1rem;
   margin: 1rem;
   width: 20rem !important;
-  box-shadow: 5px 10px #dee2e6;
+  box-shadow: 0 14px 30px rgba(23, 52, 71, 0.14);
 }
 
 .card {
   border: none !important;
 }
 
-.btn,
 .emphasis {
-  font-family: "Lobster Two", cursive !important;
-  font-size: 1.5rem !important;
+  color: var(--teal-dark);
+  font-size: 1.15rem;
+  font-weight: 600;
 }

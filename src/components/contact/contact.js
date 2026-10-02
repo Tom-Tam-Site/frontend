@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <button
-        class="btn btn-warning text-light contact-btn"
+        className="btn btn-warning text-light contact-btn"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#collapseContact"
@@ -15,8 +15,8 @@ const Contact = () => {
       >
         Contact information
       </button>
-      <div class="collapse" id="collapseContact">
-        <div class="card card-body parent">
+      <div className="collapse" id="collapseContact">
+        <div className="card card-body parent">
           <a href="mailto:ttktam@gmail.com">✉️ ttktam@gmail.com</a>
           <a href="tel:+7024286216"> 📞 (702) 428-6216</a>
         </div>

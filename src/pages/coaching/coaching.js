@@ -3,19 +3,15 @@ import React from "react";
 import "./coaching.css";
 import Contact from "../../components/contact/contact";
 
-import TamPrinciple from "../../components/tam-principle/tam-principle";
-
 import StrategyTam from "../../components/tam-principle/strategy-tam/strategy-tam";
 import RiskTam from "../../components/tam-principle/risk-tam/risk-tam";
 import TrainingTam from "../../components/tam-principle/training-tam/training-tam";
-
-let imgSrc = "images/profile.png";
 
 const Coaching = () => (
   <div className="coaching">
     <div className="row text-center">
       <Contact />
-      <div class="">
+      <div>
         <div className="paragraph p-3 bg-light">
           By working in the trenches as a problem solver with his clients in
           diverse settings, Tom saw{" "}
@@ -32,7 +28,7 @@ const Coaching = () => (
         </div>
       </div>
       <div className="text-center mt-1">
-        <h2 class="title">TAM Principles</h2>
+        <h2 className="title">TAM Principles</h2>
         <StrategyTam />
         <RiskTam />
         <TrainingTam />

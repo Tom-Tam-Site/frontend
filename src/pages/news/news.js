@@ -7,7 +7,7 @@ const News = () => (
   <div className="news">
     <div className="text-center">
       <a
-        class="btn btn-success"
+        className="btn btn-success"
         type="button"
         href="https://tamadvisors.blogspot.com/"
         target="_blank"
@@ -59,7 +59,7 @@ const News = () => (
         .
       </div>
       <div className="col-lg">
-        <img src="images/news/news2.png" className="img-fluid news-image" />
+        <img src="images/news/news2.png" className="img-fluid news-image" alt="News and analysis" />
       </div>
     </div>
 

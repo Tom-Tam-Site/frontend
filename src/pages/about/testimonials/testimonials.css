@@ -1,7 +1,9 @@
 .testimonials {
-  padding: 0.5rem;
-  border: solid 1px #198754;
-  border-radius: 1%;
+  padding: 1rem;
+  border: solid 1px var(--line);
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
 }
 
 .person {

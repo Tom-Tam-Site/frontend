@@ -43,7 +43,7 @@ const ProfessionalQualifications = () => (
         </div>
       </div>
       <div className="col-lg text-center d-flex align-items-center justify-content-center experience">
-        <img src="/images/experience.png" className="img-fluid" />
+        <img src="/images/experience.png" className="img-fluid" alt="Tom Tam's professional experience" />
       </div>
     </div>
     <div className="paragraph">

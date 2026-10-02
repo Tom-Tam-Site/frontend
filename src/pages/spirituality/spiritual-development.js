@@ -7,7 +7,7 @@ const SpiritualDevelopment = () => (
   <div className="spiritual-development">
     <div className="text-center">
       <a
-        class="btn btn-success"
+        className="btn btn-success"
         type="button"
         href="https://ttamcoaching.blogspot.com/"
         target="_blank"

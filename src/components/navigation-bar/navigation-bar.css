@@ -1,4 +1,20 @@
-.NavigationBar {
+.navigation-bar {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #e4ebeb;
+  box-shadow: 0 2px 14px rgba(23, 52, 71, 0.05);
+}
+
+.navigation-bar .navbar {
+  padding: 0.9rem 0;
+}
+
+.navigation-bar .navbar-brand {
+  text-decoration: none;
+}
+
+.navigation-bar .navbar-brand h1 {
+  margin: 0;
+  color: var(--navy);
 }
 
 .nav-items {
@@ -6,10 +22,14 @@
 }
 
 .link:hover {
-  text-decoration: underline !important;
+  color: var(--teal-dark) !important;
 }
 
 .link {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  color: var(--muted-ink) !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  padding: 0.45rem 0.35rem !important;
 }

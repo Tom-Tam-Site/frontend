@@ -10,10 +10,10 @@ const NavigationBar = () => (
   <div className="navigation-bar">
     <Navbar bg="light" sticky="top" expand="lg">
       <Container>
-        <Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" aria-label="Tom Tam home">
           <h1>Tom Tam</h1>
         </Navbar.Brand>
-        <Navbar.Toggle />
+        <Navbar.Toggle aria-label="Toggle navigation" />
         <Navbar.Collapse className="mobile-nav">
           <Nav className="nav-items ms-auto text-center">
             <Nav.Link className="link" as={Link} to="/">
