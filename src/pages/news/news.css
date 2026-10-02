@@ -8,9 +8,9 @@
 }
 
 .insights-hero-copy h1 {
-  max-width: 12ch;
+  max-width: 18ch;
   margin: 0 0 1.25rem;
-  font-size: clamp(2.5rem, 5vw, 4.9rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
   letter-spacing: -0.03em;
   text-wrap: balance;
 }
@@ -154,10 +154,6 @@
     gap: 2.5rem;
   }
 
-  .insights-hero-copy h1 {
-    max-width: 14ch;
-  }
-
   .insights-thesis,
   .insights-standard {
     gap: 2rem;
@@ -171,10 +167,6 @@
 @media (max-width: 560px) {
   .insights-hero {
     padding-top: 1.25rem;
-  }
-
-  .insights-hero-copy h1 {
-    font-size: clamp(2.2rem, 12vw, 3.25rem);
   }
 
   .insights-invitation {
