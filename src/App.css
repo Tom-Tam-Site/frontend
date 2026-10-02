@@ -139,6 +139,27 @@ button:focus-visible,
   box-shadow: 0 8px 24px rgba(23, 52, 71, 0.06);
 }
 
+.accordion-item {
+  border-color: var(--line) !important;
+  border-radius: 0.7rem !important;
+  overflow: hidden;
+}
+
+.accordion-button {
+  color: var(--navy) !important;
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--surface) !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 0.2rem rgba(178, 122, 46, 0.2) !important;
+}
+
 .vertically-centered {
   padding: 150px 0;
 

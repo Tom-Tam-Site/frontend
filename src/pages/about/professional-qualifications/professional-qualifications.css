@@ -6,6 +6,45 @@
 }
 
 .experience {
-  border-radius: 10%;
-  border: 0.2px solid black;
+  padding: 1rem;
+}
+
+.experience-panel {
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f3f6f6 100%);
+  box-shadow: 0 12px 28px rgba(23, 52, 71, 0.08);
+  text-align: left;
+}
+
+.experience-kicker {
+  margin-bottom: 1rem;
+  color: var(--teal-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.organization-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.organization-list li::marker {
+  color: var(--gold);
+}
+
+@media (max-width: 576px) {
+  .organization-list {
+    grid-template-columns: 1fr;
+  }
 }

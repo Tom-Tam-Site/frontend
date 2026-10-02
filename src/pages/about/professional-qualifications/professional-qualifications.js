@@ -42,8 +42,18 @@ const ProfessionalQualifications = () => (
           </div>
         </div>
       </div>
-      <div className="col-lg text-center d-flex align-items-center justify-content-center experience">
-        <img src="/images/experience.png" className="img-fluid visual-asset" alt="Tom Tam's professional experience" />
+      <div className="col-lg d-flex align-items-center experience">
+        <div className="experience-panel">
+          <p className="experience-kicker">Selected organizations and clients</p>
+          <ul className="organization-list">
+            <li>KPMG</li>
+            <li>PricewaterhouseCoopers</li>
+            <li>Barclays Global Investors</li>
+            <li>Blue Cross Blue Shield</li>
+            <li>Ohio Bureau of Workers' Compensation</li>
+            <li>The Church of Jesus Christ of Latter-day Saints</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div className="paragraph">
