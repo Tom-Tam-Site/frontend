@@ -84,7 +84,7 @@ const Testimonials = () => (
         <Person
           img="images/testimonials/DavidDelSol.jpeg"
           name="David Del Sol"
-          position="Software Engineer, Gap Inc"
+          position="Lead Staff AI, Data and ML Platform Engineer, Datavant"
           testimony=<div>
             <div>
               "Tom Tam is an exceptional servant leader.
