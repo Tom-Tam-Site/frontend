@@ -33,12 +33,12 @@ const ProfessionalQualifications = () => (
           <span className="bolded">senior executive positions </span>
           helping global organizations develop and implement {""}
           <span className="bolded">enterprise risk management processes.</span>
-          <div>
-            World-class organizations Tom has served include KPMG,
-            PricewaterhouseCoopers, Barclays Global Investors, and the Church of
-            Jesus Christ of Latter-day Saints, where he served as Chief Risk
-            Officer and Asia Region CFO.
-          </div>
+        </div>
+        <div className="paragraph">
+          World-class organizations Tom has served include KPMG,
+          PricewaterhouseCoopers, Barclays Global Investors, and the Church of
+          Jesus Christ of Latter-day Saints, where he served as Chief Risk
+          Officer and Asia Region CFO.
         </div>
       </div>
       <div className="col-lg d-flex align-items-center experience">

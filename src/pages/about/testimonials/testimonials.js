@@ -85,17 +85,19 @@ const Testimonials = () => (
           img="images/testimonials/DavidDelSol.jpeg"
           name="David Del Sol"
           position="Lead Staff AI, Data and ML Platform Engineer, Datavant"
-          testimony=<div>
+          testimony={
             <div>
-              "Tom Tam is an exceptional servant leader.
-              <div className="bolded">
+              <span>"Tom Tam is an exceptional servant leader. </span>
+              <span className="bolded">
                 His mentorship, commitment, and principle-based guidance for
                 self-improvement
-              </div>{" "}
-              have had a profound impact on my personal growth and professional
-              success."
+              </span>{" "}
+              <span>
+                have had a profound impact on my personal growth and
+                professional success."
+              </span>
             </div>
-          </div>
+          }
         />
       </Carousel.Item>
     </Carousel>

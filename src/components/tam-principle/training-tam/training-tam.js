@@ -138,7 +138,7 @@ const TrainingTam = () => (
                         </span>
                         <span className="bolded">
                           Otherwise, countries and individuals would be forced
-                          to became jack of all trades, and master of none.{" "}
+                          to become jack of all trades, and master of none.{" "}
                         </span>
                       </div>
                     </div>
