@@ -29,6 +29,12 @@
   font-size: 0.78rem;
 }
 
+.insights-hero .button-primary:hover {
+  background-color: var(--teal);
+  border-color: var(--teal);
+  color: white;
+}
+
 .insights-hero-visual {
   margin: 0;
 }
