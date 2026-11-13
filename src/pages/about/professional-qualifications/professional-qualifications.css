@@ -1,11 +1,39 @@
-.ProfessionalQualifications {
-}
-
 .btn-testimonials {
   margin: 0.5rem;
 }
 
 .experience {
-  border-radius: 10%;
-  border: 0.2px solid black;
+  padding: 1rem;
+}
+
+.experience-panel {
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f3f6f6 100%);
+  text-align: left;
+}
+
+.experience-kicker {
+  margin-bottom: 1rem;
+  color: var(--teal-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.organization-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.organization-list li::marker {
+  color: var(--gold);
 }

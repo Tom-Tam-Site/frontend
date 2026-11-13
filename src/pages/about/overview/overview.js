@@ -1,57 +1,53 @@
 import React from "react";
 import "./overview.css";
-import TamPrinciple from "../../../components/tam-principle/tam-principle";
 import Contact from "../../../components/contact/contact";
-
-import { Nav } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 
-// to be updated with cms dynamically.
-let title = "Overview of Services";
 let imgSrc = "images/profile.png";
 
 const Overview = () => (
   <div className="overview">
-    <div className="text-center row">
-      <div className="">
-        <img src={imgSrc} alt="profile" className="profile img-fluid" />
+    <section className="about-hero">
+      <div className="about-portrait">
+        <img src={imgSrc} alt="Tom Tam" className="profile img-fluid visual-asset" width="530" height="496" decoding="async" />
       </div>
-      <div className="col">
-        <h2 className="mt-4 title">{title}</h2>
-        <br />
-        <p className="text-start">
-          <div className="paragraph bg-light p-3">
-            Tom Tam is a{" "}
-            <span className="bolded">visionary servant leader</span>, business
-            executive, and coach with over 35 years of helping businesses,
-            individuals, and families apply time-tested principles to solve
-            their challenging problems. See{" "}
-            <span className="bolded embedded-link">
-              <Nav.Link className="embedded-link" as={Link} to="/coaching">
-                Coaching
-              </Nav.Link>
-            </span>{" "}
-            tab for personal, and business problem solving,{" "}
-            <span className="bolded embedded-link">
-              <Nav.Link className="embedded-link" as={Link} to="/spirituality">
-                Spirituality
-              </Nav.Link>
-            </span>{" "}
-            tab for personal growth, and{" "}
-            <span className="bolded embedded-link">
-              <Nav.Link className="embedded-link" as={Link} to="/news">
-                News Blog
-              </Nav.Link>
-            </span>{" "}
-            tab for fact-based discussions and articles for current economic and
-            political events.
-          </div>
+      <div className="about-hero-copy">
+        <h1>About Tom Tam</h1>
+        <p className="about-tagline">Inner Character, Outer Prosperity</p>
+        <p className="emphasis">Build the person; the prosperity follows.</p>
+        <p>
+          Tom Tam is a servant leader, business executive, and coach with over 40 years of helping businesses, individuals, and families apply time-tested principles to solve their most challenging problems. His work rests on a simple conviction: lasting success begins within the person. When character is the foundation—integrity, discipline, responsibility, and concern for others—decisions improve, actions align, and prosperity becomes sustainable. This is the principle behind his coaching: <span className="bolded">Inner character first. Outer prosperity second. In that order, and never reversed.</span>
         </p>
-        <Contact></Contact>
       </div>
-    </div>
-    <br />
+    </section>
+
+    <section className="about-section">
+      <h2>A Career Across Cultures and Continents</h2>
+      <p>
+        Tom was born in Hong Kong and immigrated to the United States at eleven. His life since has been divided between the two—formative years in Hong Kong, decades of professional life in America, and extended periods of service and work back in the region. That bicultural foundation has shaped a career spanning both Eastern and Western business cultures. He brings a rare ability to bridge them, whether advising a small business owner in the Mountain West of the U.S. or a global institution navigating cross-border risk. His coaching draws on this breadth: the principles he teaches are not bound to any single culture or market. They are rooted in the universal truths that have guided families, enterprises, and civilizations for millennia.
+      </p>
+    </section>
+
+    <section className="about-section">
+      <h2>From Business Insight to Universal Application</h2>
+      <p>
+        By helping companies solve their complex business challenges, Tom recognized common themes across industries and operating cultures. These insights led him to found T &amp; M Advisors, an executive consultancy helping small companies implement best business practices. The principles that prove effective in building sustainable enterprises—sound judgment, disciplined execution, long-term thinking—are equally practical for every person and family seeking financial security and peace of mind. They are not Western principles or Eastern principles. They are human principles, applicable wherever people seek to build lives of purpose and stability.
+      </p>
+      <p>
+        Tom has coached hundreds of professionals in their careers and personal growth. In recent years, his focus has expanded to coaching young adults—generally between twenty and twenty-five—on financial self-reliance and character development. He has watched how values shape judgment, judgment shapes decisions, decisions shape actions, and actions determine outcomes. His coaching helps young people build the inner foundation from which a meaningful and productive life grows.
+      </p>
+    </section>
+
+    <section className="explore-panel">
+      <h2>Explore Further</h2>
+      <div className="explore-links">
+        <Link to="/coaching"><strong>Coaching</strong><span>Personal and business problem-solving, grounded in principle.</span></Link>
+        <Link to="/character-development"><strong>Character Development</strong><span>Personal growth and the values that shape good judgment.</span></Link>
+        <Link to="/insights"><strong>Insights</strong><span>Fact-based articles and commentary on economic and geopolitical issues.</span></Link>
+      </div>
+    </section>
+    <div className="page-contact"><Contact /></div>
   </div>
 );
 

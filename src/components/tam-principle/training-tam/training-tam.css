@@ -1,12 +1,7 @@
-.TrainingTam {
-}
-ul {
-  position: relative;
-  list-style: none;
+.training-tam ul {
+  padding-left: 1.4rem;
 }
 
-li::before {
-  content: "▶";
-  position: absolute;
-  left: 0;
+.training-tam li {
+  margin-bottom: 0.75rem;
 }

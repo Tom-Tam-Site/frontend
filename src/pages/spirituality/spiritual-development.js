@@ -4,20 +4,24 @@ import "./spiritual-development.css";
 import Contact from "../../components/contact/contact";
 
 const SpiritualDevelopment = () => (
-  <div className="spiritual-development">
-    <div class="text-center">
+  <div className="spiritual-development character-page page-shell">
+    <header className="page-hero">
+      <h1>Character Development Articles</h1>
+      <p className="page-hero-lede">
+        Reflections on the principles, relationships, and daily choices that
+        shape a life of meaning.
+      </p>
       <a
-        class="btn btn-success"
-        type="button"
+        className="button button-primary"
         href="https://ttamcoaching.blogspot.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Spiritual Development Blog
+        Read the articles
       </a>
-    </div>
+    </header>
     <Purpose />
-    <div className="paragraph text-center bg-light p-3">
+    <section className="content-note">
       This{" "}
       <span className="bolded embedded-link">
         <a
@@ -29,13 +33,13 @@ const SpiritualDevelopment = () => (
           blog
         </a>
       </span>{" "}
-      contains personal spiritual experiences and inspirational articles that
+      contains personal character development experiences and inspirational articles that
       may be of interest to truth seekers.
       <div className="bolded">
         Your thoughts, comments, and insights are welcomed.
       </div>
-    </div>
-    <div className="text-center">
+    </section>
+    <div className="page-contact">
       <Contact />
     </div>
   </div>

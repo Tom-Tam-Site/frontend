@@ -1,6 +1,5 @@
 // import css and styling
 import "./App.css";
-import { Container } from "react-bootstrap";
 
 // import sections
 import NavigationBar from "./components/navigation-bar/navigation-bar";
@@ -19,20 +18,22 @@ import News from "./pages/news/news";
 
 function App() {
   return (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="site-shell">
       <NavigationBar />
-      <Container fluid="lg" className="App">
+      <main className="App">
         <Routes>
           <Route path="/" element={<About />}></Route>
 
           <Route path="/coaching" element={<Coaching />}></Route>
           <Route
-            path="/spirituality"
+            path="/character-development"
             element={<SpiritualDevelopment />}
           ></Route>
+          <Route path="/spirituality" element={<SpiritualDevelopment />}></Route>
+          <Route path="/insights" element={<News />}></Route>
           <Route path="/news" element={<News />}></Route>
         </Routes>
-      </Container>
+      </main>
       <Footer />
     </div>
   );
