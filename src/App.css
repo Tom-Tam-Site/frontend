@@ -190,6 +190,7 @@ button:focus-visible,
   font-weight: 700;
   letter-spacing: 0.01em;
   padding: 0.65rem 1.1rem;
+  text-decoration: none;
   transition: background-color 160ms ease, transform 160ms ease;
 }
 
@@ -206,8 +207,9 @@ button:focus-visible,
 
 .button-primary:hover,
 .btn-success:hover {
-  background-color: var(--teal-dark);
-  border-color: var(--teal-dark);
+  background-color: var(--teal);
+  border-color: var(--teal);
+  color: white;
 }
 
 .button-secondary {
