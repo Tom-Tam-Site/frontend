@@ -169,7 +169,7 @@ const TrainingTam = () => (
                           Modeling correct behaviors in the learning process is
                           reflected in Benjamin Franklin’s words “tell me and I
                           forget; teach me and I may remember; involve me and I
-                          learn.
+                          learn.”
                         </span>
                         <span>
                           Learning is best internalized with three exposures of

@@ -31,14 +31,36 @@
 }
 
 .principle-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 1 34%;
   width: auto;
-  padding: 1rem;
+  padding: 0.5rem;
+}
+
+.tam-principle .row.container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 3rem);
+}
+
+.tam-principle .row.container > .pt-4 {
+  padding-top: 0;
 }
 
 @media (max-width: 760px) {
+  .tam-principle .row.container {
+    grid-template-columns: 1fr;
+  }
+
   .principle-img {
     flex-basis: 100%;
+  }
+
+  .tam-principle .row.container > .pt-4 {
+    padding-top: 0;
   }
 }
 
