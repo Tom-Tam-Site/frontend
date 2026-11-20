@@ -1,2 +1,23 @@
-.Education {
+.education {
+  margin-top: 1rem;
+}
+
+.education-details {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: white;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 680px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -7,7 +7,11 @@ const Institution = (props) => (
     <img
       className="img-fluid"
       src={props.image}
-      alt="institution description"
+      alt=""
+      width="401"
+      height="148"
+      loading="lazy"
+      decoding="async"
     />
     <h5 className="degree">{props.degree}</h5>
   </div>
