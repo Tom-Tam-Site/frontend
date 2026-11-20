@@ -3,88 +3,111 @@ import React from "react";
 import "./news.css";
 import Contact from "../../components/contact/contact";
 
+const articlesUrl = "https://tamadvisors.blogspot.com/";
+
 const News = () => (
-  <div className="news">
-    <div class="text-center">
-      <a
-        class="btn btn-success"
-        type="button"
-        href="https://tamadvisors.blogspot.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Economic and Political Blog
-      </a>
-    </div>
-
-    <div className="row p-2">
-      <div className="text-center principle-img col-lg">
-        <img
-          className="img-fluid news-image"
-          src="images/news/economic.png"
-          alt="tam-principle"
-        />
-      </div>
-      <div className=" p-2 col-lg">
-        <div className="paragraph">
-          <span className="bolded">
-            Political and economic forces significantly impact our lives and
-            livelihood
-          </span>
-          {". "}
-          This is not surprising since{" "}
-          <span className="bolded">
-            power and money are intoxicating forces for those that seek to
-            dominate and control others
-          </span>
-          . Unfortunately, many people do not want to engage in political
-          discussions because most tend to get emotional due to their upbringing
-          and bias. Many do not understand economic principles and concepts
-          since they have never studied or spent time to learn.
-        </div>
-      </div>
-    </div>
-    <div className="row text-center">
-      <div className="paragraph p-1 col">
-        In the spirit of{" "}
-        <span className="bolded">
-          proclaiming truth and dispelling falsehood
-        </span>{" "}
-        in these two areas where there are blatant lies and deceit, this blog
-        will help those interested in learning the truth for themselves.{" "}
-        <span className="bolded">
-          We must discern fact-based truth corroborated from creditable sources
-          to avoid being emotionally manipulated by unsupported opinions
-        </span>
-        .
-      </div>
-      <div className="col-lg">
-        <img src="images/news/news2.png" className="img-fluid news-image" />
-      </div>
-    </div>
-
-    <div className="paragraph text-center bg-light p-3">
-      This{" "}
-      <span className="bolded embedded-link">
+  <article className="news page-shell">
+    <header className="insights-hero">
+      <div className="insights-hero-copy">
+        <h1>Economic and Political Articles</h1>
+        <p className="insights-deck">
+          Fact-based commentary for understanding the forces that shape our
+          livelihoods, communities, and choices.
+        </p>
         <a
-          className="embedded-link"
-          href="https://tamadvisors.blogspot.com/"
+          className="button button-primary"
+          href={articlesUrl}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
-          blog
+          Read the articles
         </a>
-      </span>{" "}
-      contains personal articles, as well as from other fact-based sources that
-      are beneficial to truth seekers.
-      <div className="bolded">
-        Your thoughts, comments, and insights are welcomed.
+        <p className="external-note">
+          Opens the T &amp; M Advisors article archive.
+        </p>
       </div>
-    </div>
-    <div className="text-center">
+
+      <figure className="insights-hero-visual">
+        <img
+          src="images/news/economic-editorial.webp"
+          alt="Editorial illustration connecting global economics, public policy, and everyday life"
+          width="1400"
+          height="700"
+          decoding="async"
+        />
+        <figcaption>
+          Economics and policy are not abstractions; their effects reach every
+          household and community.
+        </figcaption>
+      </figure>
+    </header>
+
+    <section className="insights-thesis" aria-labelledby="why-it-matters">
+      <div className="insights-thesis-copy">
+        <h2 id="why-it-matters">Why these forces matter</h2>
+        <p>
+          <strong>
+            Political and economic forces significantly impact our lives and
+            livelihoods.
+          </strong>{" "}
+          This is not surprising: power and money can be intoxicating forces
+          for those who seek to dominate and control others. Political
+          discussions often become emotional because of upbringing and bias,
+          while economic principles can remain unfamiliar to people who have
+          not had the opportunity to study them.
+        </p>
+      </div>
+
+      <blockquote className="insights-pullquote">
+        <p>
+          Discern fact-based truth, corroborated by credible sources, rather
+          than being emotionally manipulated by unsupported opinions.
+        </p>
+      </blockquote>
+    </section>
+
+    <section className="insights-standard" aria-labelledby="standard-heading">
+      <figure className="insights-standard-visual">
+        <img
+          src="images/news/insights-secondary.webp"
+          alt="Editorial illustration representing evidence-based public analysis"
+          width="1400"
+          height="700"
+          loading="lazy"
+          decoding="async"
+        />
+      </figure>
+
+      <div className="insights-standard-copy">
+        <h2 id="standard-heading">A commitment to evidence</h2>
+        <p>
+          In the spirit of proclaiming truth and dispelling falsehood in areas
+          where lies and deceit can flourish, these articles are for readers
+          interested in learning and evaluating the facts for themselves.
+        </p>
+        <p>
+          The archive includes Tom&apos;s commentary alongside material from
+          other fact-based sources that may benefit truth seekers.
+        </p>
+        <a
+          className="insights-text-link"
+          href={articlesUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit the complete article archive
+        </a>
+      </div>
+    </section>
+
+    <footer className="insights-invitation">
+      <div>
+        <h2>Continue the conversation</h2>
+        <p>Your thoughts, comments, and insights are welcome.</p>
+      </div>
       <Contact />
-    </div>
-  </div>
+    </footer>
+  </article>
 );
 
 News.propTypes = {};

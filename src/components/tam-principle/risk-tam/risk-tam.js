@@ -1,20 +1,20 @@
 import React from "react";
 
 import "./risk-tam.css";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from "../../ui/accordion/accordion";
 
 const RiskTam = () => (
   <div className="risk-tam">
     <div className="tam-principle row">
       <div id="Risk Management">
-        <div class="card bg-light principle">
-          <div class="card-body">
-            <h3 class="card-title text-center">Risk Management</h3>
+        <div className="card bg-light principle">
+          <div className="card-body">
+            <h3 className="card-title text-center">Risk Management</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  <h2>T</h2>
-                  <h5>ransfer Risk</h5>
+                  <span className="tam-letter">T</span>
+                  <span className="tam-word">Transfer Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
@@ -42,8 +42,12 @@ const RiskTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/four.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/risk-transfer.webp"
+                        alt="Risk being transferred through appropriate protection"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                   </div>
@@ -74,8 +78,12 @@ const RiskTam = () => (
                     <div className="col-lg text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/destruction.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/risk-control.webp"
+                        alt="Controls reducing exposure to identified risks"
+                        width="1400"
+                        height="622"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                   </div>
@@ -83,16 +91,20 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  <h2 className="A">A</h2>
-                  <h5>ccept Risk</h5>
+                  <span className="tam-letter">A</span>
+                  <span className="tam-word">Accept Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
                     <div className="text-center principle-img">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/family.png"
-                        alt="tam-principle Designed by pch.vector / Freepik"
+                        src="images/tam-principles/risk-accept.webp"
+                        alt="A measured decision to accept a manageable risk"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -128,16 +140,20 @@ const RiskTam = () => (
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
-                  <h2 className="M">M</h2>
-                  <h5>itigate Risk</h5>
+                  <span className="tam-letter">M</span>
+                  <span className="tam-word">Mitigate Risk</span>
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="row container">
                     <div className=" text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/mitigate-1.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/risk-mitigate.webp"
+                        alt="Actions mitigating the likelihood and impact of risk"
+                        width="1400"
+                        height="700"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
@@ -182,8 +198,12 @@ const RiskTam = () => (
                     <div className="text-center principle-img m-2">
                       <img
                         className="img-fluid"
-                        src="images/tam-principles/risk/mitigate-2.png"
-                        alt="tam-principle"
+                        src="images/tam-principles/risk-control.webp"
+                        alt="Ongoing monitoring keeping risk controls effective"
+                        width="1400"
+                        height="622"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="pt-4 col-lg">
